@@ -186,93 +186,32 @@ function section(emoji, label, items, claimed) {
   return frag;
 }
 
-const CONFETTI_COLORS = ["#f0766b", "#f5a524", "#eec643", "#4ade80", "#60a5fa", "#a78bfa", "#f472b6"];
-function reducedMotion() {
-  return window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
-}
-function confettiPiece() {
-  const s = document.createElement("span");
-  const round = Math.random() < 0.3;
-  const w = 6 + Math.random() * 6;
-  s.style.cssText = "position:fixed;z-index:99;pointer-events:none;background:" +
-    CONFETTI_COLORS[Math.floor(Math.random() * CONFETTI_COLORS.length)] +
-    ";width:" + w + "px;height:" + (round ? w : w * 1.5) + "px;border-radius:" + (round ? "50%" : "2px");
-  return s;
-}
 function confettiBurst(count) {
-  if (reducedMotion()) return;
+  if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const colors = ["#f0766b", "#f5a524", "#eec643", "#4ade80", "#60a5fa", "#a78bfa"];
   for (let n = 0; n < count; n++) {
-    const s = confettiPiece();
-    s.style.top = "-14px";
-    s.style.left = (Math.random() * 100) + "vw";
+    const s = document.createElement("span");
+    s.style.cssText = "position:fixed;top:-14px;width:8px;height:12px;border-radius:2px;z-index:99;pointer-events:none;left:" + (Math.random() * 100) + "vw;background:" + colors[n % colors.length];
     document.body.appendChild(s);
     const drift = Math.random() * 120 - 60;
     const anim = s.animate([
       { transform: "translate(0,0) rotate(0deg)", opacity: 1 },
       { transform: "translate(" + drift + "px, 105vh) rotate(" + (Math.random() * 720 - 360) + "deg)", opacity: 0.9 }
-    ], { duration: 2400 + Math.random() * 1400, easing: "cubic-bezier(.2,.7,.4,1)" });
+    ], { duration: 2200 + Math.random() * 1200, easing: "cubic-bezier(.2,.7,.4,1)" });
     anim.onfinish = () => s.remove();
   }
-}
-function confettiCannon(side) {
-  if (reducedMotion()) return;
-  const dir = side === "left" ? 1 : -1;
-  for (let n = 0; n < 16; n++) {
-    const s = confettiPiece();
-    s.style.bottom = "0px";
-    s.style.left = side === "left" ? "0px" : "auto";
-    s.style.right = side === "right" ? "0px" : "auto";
-    document.body.appendChild(s);
-    const spread = 30 + Math.random() * 30;
-    const up = 45 + Math.random() * 25;
-    const anim = s.animate([
-      { transform: "translate(0,0) rotate(0deg)", opacity: 1, offset: 0 },
-      { transform: "translate(" + (dir * spread * 0.7) + "vw, -" + up + "vh) rotate(" + (Math.random() * 360) + "deg)", opacity: 1, offset: 0.45 },
-      { transform: "translate(" + (dir * spread) + "vw, 15vh) rotate(" + (Math.random() * 720) + "deg)", opacity: 0.7, offset: 1 }
-    ], { duration: 1900 + Math.random() * 700, easing: "cubic-bezier(.15,.6,.4,1)", delay: Math.random() * 120 });
-    anim.onfinish = () => s.remove();
-  }
-}
-function fireworkBurst(xVw, yVh, count) {
-  if (reducedMotion()) return;
-  count = count || 30;
-  for (let n = 0; n < count; n++) {
-    const s = confettiPiece();
-    s.style.left = xVw + "vw";
-    s.style.top = yVh + "vh";
-    document.body.appendChild(s);
-    const ang = Math.random() * Math.PI * 2;
-    const dist = 60 + Math.random() * 130;
-    const dx = Math.cos(ang) * dist;
-    const dy = Math.sin(ang) * dist;
-    const anim = s.animate([
-      { transform: "translate(0,0) scale(1)", opacity: 1, offset: 0 },
-      { transform: "translate(" + dx + "px," + dy + "px) scale(1)", opacity: 1, offset: 0.4 },
-      { transform: "translate(" + (dx * 1.15) + "px," + (dy + 95) + "px) scale(0.7)", opacity: 0, offset: 1 }
-    ], { duration: 1200 + Math.random() * 500, easing: "cubic-bezier(.15,.6,.4,1)" });
-    anim.onfinish = () => s.remove();
-  }
-}
-
-function bigCelebration() {
-  confettiBurst(42);
-  setTimeout(() => { confettiCannon("left"); confettiCannon("right"); }, 300);
-  setTimeout(() => fireworkBurst(50, 30, 34), 800);
-  setTimeout(() => fireworkBurst(22, 42, 26), 1180);
-  setTimeout(() => fireworkBurst(78, 38, 26), 1500);
 }
 
 let celebratedAll = false, celebratedMission = false;
 function celebrateAll() {
   if (celebratedAll) return;
   celebratedAll = true;
-  bigCelebration();
+  confettiBurst(28);
 }
 function celebrateMission() {
   if (celebratedMission) return;
   celebratedMission = true;
-  confettiBurst(22);
-  setTimeout(() => fireworkBurst(50, 32, 24), 350);
+  confettiBurst(18);
 }
 
 function render() {
@@ -349,7 +288,7 @@ document.querySelector("header h1").addEventListener("click", () => {
   const now = Date.now();
   titleTaps = titleTaps.filter(t => now - t < 1500);
   titleTaps.push(now);
-  if (titleTaps.length >= 3) { titleTaps = []; bigCelebration(); }
+  if (titleTaps.length >= 3) { titleTaps = []; confettiBurst(28); }
 });
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
