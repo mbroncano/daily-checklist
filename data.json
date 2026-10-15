@@ -22,6 +22,26 @@
   },
   {
    "due": "2026-10-16",
+   "dueLabel": "Due before class Fri Oct 16",
+   "id": "ela-solo-lesson-8",
+   "kind": "laptop",
+   "note": "Read in Amplify, highlight as you read, and answer the questions.",
+   "status": "open",
+   "subject": "ELA",
+   "title": "Solo, Lesson 8: A Search in Passing"
+  },
+  {
+   "due": "2026-10-16",
+   "dueLabel": "Due before class Fri Oct 16",
+   "id": "ela-a-day-discussion",
+   "kind": "laptop",
+   "note": "Post 100+ words in Canvas, then reply to 2 classmates. You cannot change it after you post, so write it carefully.",
+   "status": "open",
+   "subject": "ELA",
+   "title": "A Day Discussion (A Search in Passing)"
+  },
+  {
+   "due": "2026-10-16",
    "dueLabel": "Due Fri Oct 16, 3:30pm",
    "id": "techapps-color",
    "kind": "laptop",
@@ -29,16 +49,6 @@
    "status": "open",
    "subject": "Tech Apps",
    "title": "Unit 3: Color"
-  },
-  {
-   "due": "2026-10-16",
-   "dueLabel": "Due Fri Oct 16, 11:59pm",
-   "id": "studyskills-digital-citizenship",
-   "kind": "laptop",
-   "note": "Look for it in Canvas under Study Skills.",
-   "status": "open",
-   "subject": "Study Skills",
-   "title": "Unit 3: Digital Citizenship"
   },
   {
    "due": "2026-10-16",
@@ -62,17 +72,25 @@
   },
   {
    "due": "2026-10-15",
-   "dueLabel": "Due Thu Oct 15, 3:30pm",
+   "dueLabel": "Was due Thu Oct 15, 3:30pm",
    "id": "math-talk-the-talk-153",
    "kind": "paper",
-   "note": "Pages 153 and 154 in your math book. Take it to school to hand in.",
+   "note": "Pages 153 and 154 in your math book. If you finished it, hand it in tomorrow.",
    "status": "open",
    "subject": "Math",
    "title": "Talk the Talk, pages 153-154"
   },
   {
+   "id": "studyskills-find-the-error",
+   "kind": "paper",
+   "note": "Paper handout. Do it on notebook paper or the back of the challenge report.",
+   "status": "open",
+   "subject": "Study Skills",
+   "title": "Find The Error handout"
+  },
+  {
    "due": "2026-10-12",
-   "dueLabel": "Turn in at the start of next World Cultures class",
+   "dueLabel": "Turn in at the start of class Fri Oct 16",
    "id": "wc-timeline",
    "kind": "school",
    "note": "Paper project, both sides of the sheet. Hand it to your teacher at the start of class. Last chance is Friday.",
@@ -81,7 +99,6 @@
    "title": "U3L4 Timeline Project"
   },
   {
-   "dueLabel": "Homeroom",
    "id": "math-dol-m1t2l3",
    "kind": "school",
    "note": "You will finish this with Ms. Simmons in homeroom. Nothing to do at home.",
@@ -90,12 +107,41 @@
    "title": "DOL M1T2L3"
   },
   {
+   "due": "2026-10-16",
+   "dueLabel": "Fri Oct 16, in class",
+   "id": "techapps-pop-art",
+   "kind": "school",
+   "note": "Locked until Friday at 9:30am. You will probably do this one in class.",
+   "status": "open",
+   "subject": "Tech Apps",
+   "title": "Unit 3: Pop Art"
+  },
+  {
+   "due": "2026-10-16",
+   "dueLabel": "Due Fri Oct 16, 11:59pm",
+   "id": "studyskills-digital-citizenship",
+   "kind": "school",
+   "note": "We cannot find this one in Canvas. Ask your teacher where it lives.",
+   "status": "open",
+   "subject": "Study Skills",
+   "title": "Unit 3: Digital Citizenship"
+  },
+  {
    "due": "2026-10-15",
-   "dueLabel": "Thu Oct 15, in class",
+   "dueLabel": "Thu Oct 15",
+   "id": "studyskills-pov-egg",
+   "kind": "school",
+   "note": "New today. If you wrote it in class, you are done.",
+   "status": "open",
+   "subject": "Study Skills",
+   "title": "POV Egg Writing"
+  },
+  {
+   "dueLabel": "Done Thu Oct 15",
    "id": "math-m1t3-assessment",
    "kind": "school",
-   "note": "A quiz you take in class today. Nothing to do at home.",
-   "status": "open",
+   "note": "You took this quiz in class today.",
+   "status": "verified",
    "subject": "Math",
    "title": "M1 Topic 3 Assessment"
   },
@@ -103,7 +149,7 @@
    "dueLabel": "Submitted Wed Oct 14, 7:21pm",
    "id": "techapps-discount-tire-ad",
    "kind": "laptop",
-   "note": "Waiting for the grade.",
+   "note": "You turned this in. Still waiting for the grade.",
    "status": "verified",
    "subject": "Tech Apps",
    "title": "Unit 3: Discount_Tire_Ad"
@@ -136,5 +182,5 @@
    "title": "Unit 3: Drawing"
   }
  ],
- "updated": "2026-10-15T07:22:53-05:00"
+ "updated": "2026-10-15T17:08:37-05:00"
 }
