@@ -40,6 +40,13 @@
   .badge.over { background:#fee2e2; color:#991b1b; }
   .badge.today { background:#fde68a; color:#92400e; }
   .badge.soon { background:#fef3c7; color:#92400e; }
+  .card.u-over { border-left:6px solid #dc2626; }
+  .card.u-today { border-left:6px solid #ea580c; }
+  .card.u-soon { border-left:6px solid #f59e0b; }
+  .due { font-weight:700; }
+  .due.over { color:#dc2626; }
+  .due.today { color:#ea580c; }
+  .due.soon { color:#d97706; }
   .banner { border-radius:14px; padding:14px; margin:14px 0 4px; font-size:16px; font-weight:600; text-align:center; }
   .banner.celebrate { background:#dcfce7; color:#166534; }
   .banner.stale { background:#fef3c7; color:#92400e; font-weight:500; font-size:14.5px; }
@@ -54,7 +61,7 @@
   <div class="progress-label" id="barLabel"></div>
 </header>
 <main id="app"></main>
-<footer>Tap the circle when you finish something.<br>It turns green when Dad verifies it in Canvas/PowerSchool.</footer>
+<footer>Tap the circle when you finish something.<br>It turns green when Dad verifies it in Canvas/PowerSchool.<br>🔴 Overdue &nbsp;·&nbsp; 🟠 Due today &nbsp;·&nbsp; 🟡 Due soon</footer>
 
 <script>
 const LS_KEY = "hw-claimed-v1";
@@ -83,6 +90,15 @@ function daysUntil(item) {
   return Math.round((due - today) / 86400000);
 }
 
+function dueTier(item) {
+  const d = daysUntil(item);
+  if (d === null) return { cls: "", card: "" };
+  if (d < 0) return { cls: "over", card: " u-over" };
+  if (d === 0) return { cls: "today", card: " u-today" };
+  if (d <= 3) return { cls: "soon", card: " u-soon" };
+  return { cls: "", card: "" };
+}
+
 function urgencyBadge(item) {
   const d = daysUntil(item);
   if (d === null) return "";
@@ -101,8 +117,9 @@ function byUrgency(a, b) {
 
 function card(item, claimed) {
   const st = statusOf(item, claimed);
+  const tier = st === "verified" ? { cls: "", card: "" } : dueTier(item);
   const el = document.createElement("div");
-  el.className = "card" + (st === "verified" ? " done" : "");
+  el.className = "card" + (st === "verified" ? " done" : "") + tier.card;
   const pill = st === "verified" ? '<span class="pill verified">Verified ✓</span>'
              : st === "claimed" ? '<span class="pill claimed">I did it</span>'
              : '<span class="pill open">To do</span>';
@@ -111,7 +128,7 @@ function card(item, claimed) {
     <div class="body">
       <span class="chip">${item.subject}</span>${pill}${st === "verified" ? "" : urgencyBadge(item)}
       <div class="title">${item.title}</div>
-      <div class="meta">${item.dueLabel || ""}${item.note ? " · " + item.note : ""}</div>
+      <div class="meta">${item.dueLabel ? `<span class="due ${tier.cls}">${item.dueLabel}</span>` : ""}${item.note ? " · " + item.note : ""}</div>
     </div>`;
   const btn = el.querySelector(".check");
   if (st !== "verified") {
