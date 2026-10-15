@@ -49,7 +49,8 @@
   .due.today { color:#c77400; }
   .due.soon { color:#a07d10; }
   .banner { border-radius:14px; padding:14px; margin:14px 0 4px; font-size:16px; font-weight:600; text-align:center; }
-  .banner.celebrate { background:#dcfce7; color:#166534; }
+  .banner.celebrate { background:#dcfce7; color:#166534; animation:pop-in .45s ease-out; }
+  @keyframes pop-in { 0% { transform:scale(.8); opacity:0; } 60% { transform:scale(1.05); opacity:1; } 100% { transform:scale(1); } }
   .banner.stale { background:#fef3c7; color:#92400e; font-weight:500; font-size:14.5px; }
   footer { text-align:center; color:var(--muted); font-size:12.5px; padding:0 16px 28px; }
 </style>
@@ -185,13 +186,10 @@ function section(emoji, label, items, claimed) {
   return frag;
 }
 
-let celebrated = false;
-function confetti() {
-  if (celebrated) return;
-  celebrated = true;
+function confettiBurst(count) {
   if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const colors = ["#f0766b", "#f5a524", "#eec643", "#4ade80", "#60a5fa", "#a78bfa"];
-  for (let n = 0; n < 28; n++) {
+  for (let n = 0; n < count; n++) {
     const s = document.createElement("span");
     s.style.cssText = "position:fixed;top:-14px;width:8px;height:12px;border-radius:2px;z-index:99;pointer-events:none;left:" + (Math.random() * 100) + "vw;background:" + colors[n % colors.length];
     document.body.appendChild(s);
@@ -202,6 +200,19 @@ function confetti() {
     ], { duration: 2200 + Math.random() * 1200, easing: "cubic-bezier(.2,.7,.4,1)" });
     anim.onfinish = () => s.remove();
   }
+}
+
+let celebratedAll = false, celebratedMission = false;
+function celebrateAll() {
+  if (celebratedAll) return;
+  celebratedAll = true;
+  confettiBurst(30);
+  setTimeout(() => confettiBurst(24), 350);
+}
+function celebrateMission() {
+  if (celebratedMission) return;
+  celebratedMission = true;
+  confettiBurst(18);
 }
 
 function render() {
@@ -218,7 +229,7 @@ function render() {
     b.className = "banner celebrate";
     b.textContent = "🎉 Everything is done and checked. Nice work!";
     app.appendChild(b);
-    confetti();
+    celebrateAll();
   }
   const ageHours = (Date.now() - new Date(data.updated)) / 3600000;
   if (isFinite(ageHours) && ageHours > 26) {
@@ -245,6 +256,7 @@ function render() {
     const left = missionItems.filter(i => !claimed.has(i.id)).length;
     mEl.textContent = left ? "🎯 Tonight's mission: " + left + " to do" : "🎯 Tonight's mission: done!";
     mEl.style.display = "";
+    if (!left) celebrateMission();
   } else {
     mEl.style.display = "none";
   }
@@ -270,6 +282,15 @@ async function load() {
 
 load();
 setInterval(load, 5 * 60 * 1000); // refresh data every 5 min while open
+
+// Dad preview: tap the title 3 times quickly to test the confetti.
+let titleTaps = [];
+document.querySelector("header h1").addEventListener("click", () => {
+  const now = Date.now();
+  titleTaps = titleTaps.filter(t => now - t < 1500);
+  titleTaps.push(now);
+  if (titleTaps.length >= 3) { titleTaps = []; confettiBurst(36); }
+});
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
