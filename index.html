@@ -233,10 +233,33 @@ function confettiCannon(side) {
     anim.onfinish = () => s.remove();
   }
 }
+function fireworkBurst(xVw, yVh, count) {
+  if (reducedMotion()) return;
+  count = count || 30;
+  for (let n = 0; n < count; n++) {
+    const s = confettiPiece();
+    s.style.left = xVw + "vw";
+    s.style.top = yVh + "vh";
+    document.body.appendChild(s);
+    const ang = Math.random() * Math.PI * 2;
+    const dist = 60 + Math.random() * 130;
+    const dx = Math.cos(ang) * dist;
+    const dy = Math.sin(ang) * dist;
+    const anim = s.animate([
+      { transform: "translate(0,0) scale(1)", opacity: 1, offset: 0 },
+      { transform: "translate(" + dx + "px," + dy + "px) scale(1)", opacity: 1, offset: 0.4 },
+      { transform: "translate(" + (dx * 1.15) + "px," + (dy + 95) + "px) scale(0.7)", opacity: 0, offset: 1 }
+    ], { duration: 1200 + Math.random() * 500, easing: "cubic-bezier(.15,.6,.4,1)" });
+    anim.onfinish = () => s.remove();
+  }
+}
+
 function bigCelebration() {
   confettiBurst(42);
   setTimeout(() => { confettiCannon("left"); confettiCannon("right"); }, 300);
-  setTimeout(() => confettiBurst(20), 700);
+  setTimeout(() => fireworkBurst(50, 30, 34), 800);
+  setTimeout(() => fireworkBurst(22, 42, 26), 1180);
+  setTimeout(() => fireworkBurst(78, 38, 26), 1500);
 }
 
 let celebratedAll = false, celebratedMission = false;
@@ -248,8 +271,8 @@ function celebrateAll() {
 function celebrateMission() {
   if (celebratedMission) return;
   celebratedMission = true;
-  confettiBurst(26);
-  setTimeout(() => confettiBurst(14), 300);
+  confettiBurst(22);
+  setTimeout(() => fireworkBurst(50, 32, 24), 350);
 }
 
 function render() {
