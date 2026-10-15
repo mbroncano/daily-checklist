@@ -19,6 +19,7 @@
   .progress { background:rgba(255,255,255,.25); border-radius:99px; height:10px; margin-top:12px; overflow:hidden; }
   .progress > div { background:#fff; height:100%; width:0%; transition:width .3s; }
   .progress-label { font-size:13px; margin-top:6px; opacity:.9; }
+  .mission { font-size:16px; font-weight:700; margin-top:8px; }
   main { padding:8px 12px 40px; max-width:640px; margin:0 auto; }
   h2 { font-size:17px; margin:22px 4px 8px; color:var(--ink); }
   h2 .emoji { margin-right:6px; }
@@ -59,6 +60,7 @@
   <div class="sub" id="updated">Loading…</div>
   <div class="progress"><div id="bar"></div></div>
   <div class="progress-label" id="barLabel"></div>
+  <div class="mission" id="mission" style="display:none"></div>
 </header>
 <main id="app"></main>
 <footer>Tap the circle when you finish something.<br>It turns green when Dad verifies it in Canvas/PowerSchool.<br>🔴 Overdue &nbsp;·&nbsp; 🟠 Due today &nbsp;·&nbsp; 🟡 Due soon</footer>
@@ -72,6 +74,23 @@ function claimedSet() {
   catch { return new Set(); }
 }
 function saveClaimed(s) { localStorage.setItem(LS_KEY, JSON.stringify([...s])); }
+
+const SUBJECTS = {
+  "Math": { icon: "🔢", bg: "#e0e7ff", fg: "#3730a3" },
+  "ELA": { icon: "📖", bg: "#ffe4e6", fg: "#9f1239" },
+  "Science": { icon: "🔬", bg: "#dcfce7", fg: "#166534" },
+  "Tech Apps": { icon: "🖥️", bg: "#e0f2fe", fg: "#075985" },
+  "Study Skills": { icon: "🎯", bg: "#ede9fe", fg: "#5b21b6" },
+  "World Cultures": { icon: "🌍", bg: "#fef3c7", fg: "#92400e" },
+  "Theatre": { icon: "🎭", bg: "#fae8ff", fg: "#86198f" },
+  "PE": { icon: "⚽", bg: "#ecfccb", fg: "#3f6212" }
+};
+
+function subjectChip(item) {
+  const s = SUBJECTS[item.subject];
+  if (!s) return `<span class="chip">${item.subject}</span>`;
+  return `<span class="chip" style="background:${s.bg};color:${s.fg}">${s.icon} ${item.subject}</span>`;
+}
 
 function statusOf(item, claimed) {
   if (item.status === "verified") return "verified";
@@ -126,7 +145,7 @@ function card(item, claimed) {
   el.innerHTML = `
     <button class="check ${st}" aria-label="mark done">${st === "open" ? "" : "✓"}</button>
     <div class="body">
-      <span class="chip">${item.subject}</span>${pill}${st === "verified" ? "" : urgencyBadge(item)}
+      ${subjectChip(item)}${pill}${st === "verified" ? "" : urgencyBadge(item)}
       <div class="title">${item.title}</div>
       <div class="meta">${item.dueLabel ? `<span class="due ${tier.cls}">${item.dueLabel}</span>` : ""}${item.note ? " · " + item.note : ""}</div>
     </div>`;
@@ -134,9 +153,18 @@ function card(item, claimed) {
   if (st !== "verified") {
     btn.addEventListener("click", () => {
       const s = claimedSet();
-      if (s.has(item.id)) s.delete(item.id); else s.add(item.id);
+      const checking = !s.has(item.id);
+      if (checking) s.add(item.id); else s.delete(item.id);
       saveClaimed(s);
-      render();
+      if (checking && btn.animate) {
+        btn.animate(
+          [{ transform: "scale(1)" }, { transform: "scale(1.35)" }, { transform: "scale(1)" }],
+          { duration: 220, easing: "ease-out" }
+        );
+        setTimeout(render, 170);
+      } else {
+        render();
+      }
     });
   }
   return el;
@@ -157,6 +185,25 @@ function section(emoji, label, items, claimed) {
   return frag;
 }
 
+let celebrated = false;
+function confetti() {
+  if (celebrated) return;
+  celebrated = true;
+  if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const colors = ["#f0766b", "#f5a524", "#eec643", "#4ade80", "#60a5fa", "#a78bfa"];
+  for (let n = 0; n < 28; n++) {
+    const s = document.createElement("span");
+    s.style.cssText = "position:fixed;top:-14px;width:8px;height:12px;border-radius:2px;z-index:99;pointer-events:none;left:" + (Math.random() * 100) + "vw;background:" + colors[n % colors.length];
+    document.body.appendChild(s);
+    const drift = Math.random() * 120 - 60;
+    const anim = s.animate([
+      { transform: "translate(0,0) rotate(0deg)", opacity: 1 },
+      { transform: "translate(" + drift + "px, 105vh) rotate(" + (Math.random() * 720 - 360) + "deg)", opacity: 0.9 }
+    ], { duration: 2200 + Math.random() * 1200, easing: "cubic-bezier(.2,.7,.4,1)" });
+    anim.onfinish = () => s.remove();
+  }
+}
+
 function render() {
   if (!data) return;
   const claimed = claimedSet();
@@ -171,6 +218,7 @@ function render() {
     b.className = "banner celebrate";
     b.textContent = "🎉 Everything is done and checked. Nice work!";
     app.appendChild(b);
+    confetti();
   }
   const ageHours = (Date.now() - new Date(data.updated)) / 3600000;
   if (isFinite(ageHours) && ageHours > 26) {
@@ -190,6 +238,16 @@ function render() {
   const bar = document.getElementById("bar");
   bar.style.width = Math.round(finished / total * 100) + "%";
   bar.style.background = (items.length && finished === items.length) ? "#4ade80" : "";
+
+  const missionItems = open.filter(i => (i.kind === "laptop" || i.kind === "paper") && daysUntil(i) !== null && daysUntil(i) <= 1);
+  const mEl = document.getElementById("mission");
+  if (missionItems.length) {
+    const left = missionItems.filter(i => !claimed.has(i.id)).length;
+    mEl.textContent = left ? "🎯 Tonight's mission: " + left + " to do" : "🎯 Tonight's mission: done!";
+    mEl.style.display = "";
+  } else {
+    mEl.style.display = "none";
+  }
   document.getElementById("barLabel").textContent = `${finished} of ${items.length} finished`;
   const d = new Date(data.updated);
   document.getElementById("updated").textContent =
