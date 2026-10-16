@@ -29,22 +29,20 @@
    "title": "Solo, Lesson 8: A Search in Passing"
   },
   {
-   "due": "2026-10-16",
-   "dueLabel": "Due before class Fri Oct 16",
+   "dueLabel": "Done Thu Oct 15, 9:42pm",
    "id": "ela-a-day-discussion",
    "kind": "laptop",
-   "note": "Post 100+ words in Canvas, then reply to 2 classmates. You cannot change it after you post, so write it carefully.",
-   "status": "open",
+   "note": "You posted it in Canvas. Dad checked.",
+   "status": "verified",
    "subject": "ELA",
    "title": "A Day Discussion (A Search in Passing)"
   },
   {
-   "due": "2026-10-16",
-   "dueLabel": "Due Fri Oct 16, 11:59pm",
+   "dueLabel": "Done Fri Oct 16",
    "id": "math-mathstream-m2t1l1",
    "kind": "laptop",
-   "note": "Two videos in MATHia. Not started yet.",
-   "status": "open",
+   "note": "Both videos done in MATHia. Dad checked.",
+   "status": "verified",
    "subject": "Math",
    "title": "M2T1L1: MATHstream Interactive Videos"
   },
@@ -160,5 +158,5 @@
    "title": "Unit 3: Drawing"
   }
  ],
- "updated": "2026-10-15T20:21:30-05:00"
+ "updated": "2026-10-16T07:14:34-05:00"
 }
