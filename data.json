@@ -42,16 +42,6 @@
   },
   {
    "due": "2026-10-16",
-   "dueLabel": "Due Fri Oct 16, 3:30pm",
-   "id": "techapps-color",
-   "kind": "laptop",
-   "note": "This one is locked until Friday at 9:30am. Nothing to do yet.",
-   "status": "open",
-   "subject": "Tech Apps",
-   "title": "Unit 3: Color"
-  },
-  {
-   "due": "2026-10-16",
    "dueLabel": "Due Fri Oct 16, 11:59pm",
    "id": "math-mathstream-m2t1l1",
    "kind": "laptop",
@@ -105,16 +95,6 @@
    "status": "open",
    "subject": "Math",
    "title": "DOL M1T2L3"
-  },
-  {
-   "due": "2026-10-16",
-   "dueLabel": "Fri Oct 16, in class",
-   "id": "techapps-pop-art",
-   "kind": "school",
-   "note": "Locked until Friday at 9:30am. You will probably do this one in class.",
-   "status": "open",
-   "subject": "Tech Apps",
-   "title": "Unit 3: Pop Art"
   },
   {
    "due": "2026-10-16",
@@ -182,5 +162,5 @@
    "title": "Unit 3: Drawing"
   }
  ],
- "updated": "2026-10-15T17:08:37-05:00"
+ "updated": "2026-10-15T20:19:58-05:00"
 }
