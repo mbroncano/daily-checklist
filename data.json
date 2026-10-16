@@ -1,22 +1,20 @@
 {
  "items": [
   {
-   "due": "2026-10-12",
-   "dueLabel": "Was due Mon Oct 12",
+   "dueLabel": "Done Fri Oct 9",
    "id": "mathia-m1t3l1-4",
    "kind": "laptop",
-   "note": "Work on this inside MATHia. Tap the circle when you finish.",
-   "status": "open",
+   "note": "You finished all 4 parts in MATHia. Dad checked.",
+   "status": "verified",
    "subject": "Math",
    "title": "MATHia M1T3L1-4"
   },
   {
-   "due": "2026-10-02",
-   "dueLabel": "Was due Oct 2",
+   "dueLabel": "Done Oct 3",
    "id": "mathia-interactive-skills",
    "kind": "laptop",
-   "note": "Also inside MATHia: Sets A, B and C. Tap the circle when you finish.",
-   "status": "open",
+   "note": "All 3 sets finished in MATHia. Dad checked.",
+   "status": "verified",
    "subject": "Math",
    "title": "Interactive Skills Practice: Proportional Relationships"
   },
@@ -45,7 +43,7 @@
    "dueLabel": "Due Fri Oct 16, 11:59pm",
    "id": "math-mathstream-m2t1l1",
    "kind": "laptop",
-   "note": "Watch the videos in MATHstream. Only if there is time.",
+   "note": "Two videos in MATHia. Not started yet.",
    "status": "open",
    "subject": "Math",
    "title": "M2T1L1: MATHstream Interactive Videos"
@@ -162,5 +160,5 @@
    "title": "Unit 3: Drawing"
   }
  ],
- "updated": "2026-10-15T20:19:58-05:00"
+ "updated": "2026-10-15T20:21:30-05:00"
 }
