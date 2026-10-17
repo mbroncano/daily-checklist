@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T06:59:51-05:00",
+ "updated": "2026-10-17T07:31:05-05:00",
  "items": [
   {
    "id": "mathia-m1t3l1-4",
@@ -186,6 +186,25 @@
    "dueLabel": "Submitted late, Wed Oct 14",
    "note": "Turned in.",
    "status": "verified"
+  },
+  {
+   "id": "techapps-halloween-graphic",
+   "subject": "Tech Apps",
+   "title": "Halloween / Day of the Dead / Diwali Graphic",
+   "kind": "laptop",
+   "dueLabel": "Submitted Fri Oct 16",
+   "note": "You turned in your Canva picture. Still waiting for the grade.",
+   "status": "verified"
+  },
+  {
+   "id": "ela-solo-lesson-9",
+   "subject": "ELA",
+   "title": "Solo, Lesson 9: Fate",
+   "kind": "laptop",
+   "due": "2026-10-20",
+   "dueLabel": "Due Tue Oct 20",
+   "note": "Read in Amplify and add 6 to 8 highlights or notes as you read.",
+   "status": "open"
   }
  ]
 }
