@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T07:35:00-05:00",
+ "updated": "2026-10-19T07:36:00-05:00",
  "items": [
   {
    "id": "mathia-m1t3l1-4",
@@ -90,8 +90,9 @@
    "subject": "Math",
    "title": "DOL M1T2L3",
    "kind": "school",
-   "note": "You will finish this with Ms. Simmons in homeroom. Nothing to do at home.",
-   "status": "open"
+   "note": "Your teacher graded this one. Dad checked.",
+   "status": "verified",
+   "dueLabel": "Done"
   },
   {
    "id": "studyskills-pov-egg",
