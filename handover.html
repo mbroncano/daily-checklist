@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Homework Checklist — Handover Prompt</title>
+<title>Homework Checklist — Handover Prompt for HISD Parents</title>
 <style>
   :root { color-scheme: light; }
   body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fdf8f3; color: #33302b; margin: 0; padding: 24px 16px 48px; }
   main { max-width: 760px; margin: 0 auto; }
   h1 { font-size: 1.5rem; margin: 0 0 8px; }
-  p.intro { line-height: 1.55; margin: 0 0 20px; }
+  p.intro { line-height: 1.55; margin: 0 0 14px; }
   button { background: #7c9a82; color: #fff; border: 0; border-radius: 10px; padding: 10px 18px; font-size: 1rem; cursor: pointer; margin-bottom: 14px; }
   button:active { opacity: .8; }
   pre { white-space: pre-wrap; word-wrap: break-word; background: #fff; border: 1px solid #e7ddd2; border-radius: 12px; padding: 18px; font-size: .92rem; line-height: 1.55; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -18,16 +18,20 @@
 </head>
 <body>
 <main>
-  <h1>The homework checklist: handover prompt</h1>
-  <p class="intro">This is the brief behind the daily homework checklist page my assistant runs for my son. Copy the prompt below and paste it into your own AI assistant (Muse, ChatGPT with its browser, OpenClaw, or a similar agent). It is written platform-neutral on purpose: it describes the loop and the rules, not any one product's features. Fill in the [bracketed] parts with your child's details when your assistant asks. The part that matters most is the read-only discipline in Part 1; it was learned the hard way.</p>
+  <h1>The homework checklist: handover prompt for HISD parents</h1>
+  <p class="intro">This is a ready-to-paste prompt for building a daily homework checklist for your child, written for parents in Houston ISD (HISD). It comes from a working setup: an AI assistant checks HISD Connect (PowerSchool) and Canvas every morning, republishes a simple checklist page the child opens on their phone, and reports anything new to the parent. Copy the prompt below into your own AI assistant and fill in the [bracketed] parts when it asks.</p>
+  <p class="intro">Two honest warnings: the original system runs on Muse, where the whole loop is proven; other platforms may or may not handle HISD's sign-ins and unattended scheduling. And the part that matters most is the read-only discipline in Part 1, learned the hard way.</p>
   <button id="copyBtn" type="button">Copy the prompt</button>
-  <pre id="promptText">I want you to build and run a daily homework checklist system for my child, modeled on a system a friend of mine uses. Read this whole brief before starting, and ask me about anything marked [in brackets] that you need from me.
+  <pre id="promptText">I want you to build and run a daily homework checklist system for my child, based on a working setup used by another parent in Houston ISD (HISD). Read this whole brief before starting, and ask me about anything marked [in brackets] that you need from me.
+
+A NOTE ON PLATFORMS
+The original system runs on Muse, where this loop, including HISD's sign-in chain, is proven to work. Other agent platforms (ChatGPT, OpenClaw, Gemini agents, and similar) might work or might not: the fragile points are staying signed in to the school portals and running the check unattended every morning. If you are not Muse, treat the first supervised check as a capability test, and tell me honestly and early what you cannot do, rather than quietly producing an incomplete list.
 
 THE SYSTEM, IN ONE PARAGRAPH
 Every school-day morning, you check my child's school systems yourself, rebuild a short list of what is open, overdue, or due soon, publish that list to a simple web page my child opens on their phone, and send me a short report of what is new. The page is just a checklist. The intelligence is in your checking.
 
 PART 1 — THE DAILY CHECK (the important part)
-- Systems to check: [the grade portal, e.g. PowerSchool parent portal, with its web address] and [the course platform, e.g. Canvas, and how we reach it, e.g. through our district's single sign-on]. Also [any linked practice tools teachers assign work in, e.g. a math practice app].
+- Systems to check: HISD Connect (the PowerSchool parent portal) for grades, flags, and attendance, and Canvas for coursework, reached the way our district sets it up (see Part 5). Also any linked tools teachers assign work in, such as MATHia for math or Amplify for reading.
 - Access is READ-ONLY. Never submit, answer, post, message, or change anything in the school systems. Never press Send, Submit, Begin, or Start on anything. You are an inspector, not a student.
 - Check EVERY open item in every system, not just what the dashboards highlight. For each new item, open its detail page and read the instructions before deciding how it gets done: a computer submission, an external practice tool, paper done at home, or work that can only happen at school. Never classify an item from its title alone.
 - Items that are still locked or not yet available do NOT go on my child's list. They join the list only once they are actually available.
@@ -51,14 +55,25 @@ One static web page: no server, no accounts, no login. Host it somewhere free an
 PART 4 — REPORTING TO ME
 Each morning after the check, send me a short report of what is NEW only: new missing or overdue work, grade changes worth knowing, anything blocked that needs a person. Group the home-doable items into laptop and paper. Things already reported stay quiet unless they change. If a check cannot run, tell me which part failed and why.
 
+PART 5 — HOUSTON ISD: SYSTEMS AND GOTCHAS
+- There are two systems of record and they do not fully agree. HISD Connect (PowerSchool) holds the official grades, Missing/Incomplete flags, and attendance. Canvas holds coursework and submissions. The two sync imperfectly: the same assignment can show different scores, or a score in one and nothing in the other. When they disagree, report the disagreement; do not silently pick one.
+- Canvas is reached through Clever: sign in at clever.com/in/hisd with "Log in with Microsoft Entra" using the student's HISD Microsoft account, then launch Canvas from inside Clever. Signing in to Canvas directly with Microsoft fails (error AADSTS50105). Do not waste runs retrying the direct route.
+- Student accounts look like s1234567@online.houstonisd.org. If a browser session is already signed in as a different child (siblings), choose "Use another account" before signing in. A credential store may keep only one login per domain, so saving a second child's login can displace the first; warn me before saving a sibling's login over an existing one.
+- Some assigned work never appears in Canvas at all. MATHia (math practice, launched from Clever via Carnegie Learning) shows nothing in Canvas; you must open MATHia itself to see progress there. Amplify reading assignments ("Solos") are similar: their scores land in PowerSchool but cannot be verified inside Canvas. Textbook page assignments (e.g. "pages 141-142") exist only as PowerSchool rows; there is no online submission to check, so report them as not verifiable online rather than missing online.
+- HISD grades run in cycles (grading periods) with hard end dates. Always look at the current cycle's detail in PowerSchool, and tell me when a cycle has about a week left: work posted, or still missing, near a cycle end matters more than the same item mid-cycle.
+- Teachers post grades days after work is done, and flags lag too. A "Missing" flag can survive a late turn-in until the teacher updates it. Report what each system shows, with dates, instead of smoothing it over.
+- Some Canvas items are in-class quizzes that unlock at a set time on the day (often mid-morning) and are taken in the classroom. They are not homework; if one appears before it unlocks, keep it off the child's list and mention it to me.
+- The district portals have real outages, sometimes for hours. If a site is down or a login is rejected once, retry later and say the check is incomplete; do not declare a login broken on one failure.
+- ParentSquare is HISD's messaging channel for announcements. Monitoring it is optional but useful context; the grade portal and Canvas remain the sources for work and grades.
+
 SETUP ORDER
-1. Ask me for: my child's first name and grade, the school's name, the portals' web addresses, and how sign-in works. I will give credentials only through your platform's secure credential storage, never pasted into chat.
+1. Ask me for: my child's first name and grade, the campus name, and how sign-in works at our campus. I will give credentials only through your platform's secure credential storage, never pasted into chat.
 2. Do one supervised manual check while I watch, and show me the list before you publish anything.
 3. Only after that, set up the recurring morning check ([suggested: 7:00am local time]) and the page publishing.
 4. Keep a private record of what you have already reported to me, so you never report the same item twice.
 
 Start with step 1: tell me what you need from me.</pre>
-  <p class="note">Notes from experience: the page itself takes an assistant an afternoon at most; the daily checking is the system. Expect the first week to need corrections as the assistant learns your school's portals and your child's teachers. The rules that took us longest to learn are all in Part 1.</p>
+  <p class="note">Notes from experience: the page itself takes an assistant an afternoon at most; the daily checking is the system. Expect the first week to need corrections while the assistant learns your campus's portals and your child's teachers. The rules that took longest to learn are all in Part 1 and Part 5.</p>
 </main>
 <script>
   document.getElementById('copyBtn').addEventListener('click', async () => {
