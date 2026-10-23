@@ -20,11 +20,11 @@
     },
     {
       "due": "2026-10-14",
-      "dueLabel": "Was due Wed Oct 14",
+      "dueLabel": "Done Wed Oct 14",
       "id": "ela-solo-lesson-8",
       "kind": "laptop",
-      "note": "Read in Amplify, highlight as you read, and answer the questions.",
-      "status": "open",
+      "note": "You read it in Amplify. Dad checked.",
+      "status": "verified",
       "subject": "ELA",
       "title": "Solo, Lesson 8: A Search in Passing"
     },
@@ -76,11 +76,11 @@
     },
     {
       "due": "2026-10-12",
-      "dueLabel": "Was due Mon Oct 12",
+      "dueLabel": "Done",
       "id": "wc-timeline",
       "kind": "school",
-      "note": "Paper project. If you handed it in at school on Friday, tell Dad.",
-      "status": "open",
+      "note": "You turned in your paper project. Dad checked.",
+      "status": "verified",
       "subject": "World Cultures",
       "title": "U3L4 Timeline Project"
     },
@@ -198,11 +198,11 @@
     },
     {
       "due": "2026-10-20",
-      "dueLabel": "Due Tue Oct 20",
+      "dueLabel": "Done Tue Oct 20",
       "id": "ela-solo-lesson-9",
       "kind": "laptop",
-      "note": "Read in Amplify and add 6 to 8 highlights or notes as you read.",
-      "status": "open",
+      "note": "You read it in Amplify. Dad checked.",
+      "status": "verified",
       "subject": "ELA",
       "title": "Solo, Lesson 9: Fate"
     },
@@ -262,9 +262,9 @@
       "title": "Unit 3: Cameras",
       "kind": "laptop",
       "due": "2026-10-22",
-      "dueLabel": "Due Thu Oct 22, 3:30pm",
-      "note": "New quiz in Canvas. It unlocks at 9:30am. Do it before 3:30pm.",
-      "status": "open"
+      "dueLabel": "Done Thu Oct 22",
+      "note": "Done in Canvas. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-u4l3-velocity",
@@ -285,16 +285,6 @@
       "dueLabel": "Due Fri Oct 23, 3:30pm",
       "note": "Page 183 in your math book.",
       "status": "open"
-    },
-    {
-      "id": "wc-u4-day-one",
-      "subject": "World Cultures",
-      "title": "Unit 4 Project: Day One",
-      "kind": "laptop",
-      "due": "2026-10-22",
-      "dueLabel": "Submitted Tue Oct 20",
-      "note": "You turned this in. Waiting for the grade.",
-      "status": "verified"
     },
     {
       "id": "studyskills-gallery-walk",
@@ -332,9 +322,9 @@
       "title": "U4L3 Wanted Poster",
       "kind": "laptop",
       "due": "2026-10-22",
-      "dueLabel": "Was due today, Thu Oct 22, 3:30pm",
-      "note": "Your poster file is already attached in Canvas. Open it tonight and press Submit.",
-      "status": "open"
+      "dueLabel": "Submitted Thu Oct 22",
+      "note": "You uploaded your poster in Canvas. Waiting for the grade.",
+      "status": "verified"
     },
     {
       "id": "wc-unit4-project-day-two",
@@ -343,9 +333,19 @@
       "kind": "laptop",
       "due": "2026-10-24",
       "dueLabel": "Due Sat Oct 24",
-      "note": "Part two of the Unit 4 project in Canvas. Day One is already turned in.",
+      "note": "Part two of the Unit 4 project. Type your answers in the Canvas box and press Submit.",
+      "status": "open"
+    },
+    {
+      "id": "math-dol-m2t1l1",
+      "subject": "Math",
+      "title": "DOL M2T1L1: Introducing Proportions",
+      "kind": "school",
+      "due": "2026-10-23",
+      "dueLabel": "Today, Fri Oct 23, 3:30pm",
+      "note": "Daily quiz in math class. Nothing to do at home.",
       "status": "open"
     }
   ],
-  "updated": "2026-10-22T19:35:00-05:00"
+  "updated": "2026-10-23T07:25:00-05:00"
 }
