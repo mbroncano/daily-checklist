@@ -137,8 +137,8 @@
       "dueLabel": "Due Mon Oct 19, 11:59pm",
       "id": "sci-additional-notes",
       "kind": "laptop",
-      "note": "This one is marked missing in Canvas. Open the notes doc in Canvas, make a copy, fill in the answers, and turn it in through Canvas.",
-      "status": "open",
+      "note": "You turned this in this morning, Sat Oct 24. Dad checked.",
+      "status": "verified",
       "subject": "Science",
       "title": "Cycle 1 Additional Notes HW"
     },
@@ -333,8 +333,8 @@
       "kind": "laptop",
       "due": "2026-10-24",
       "dueLabel": "Due Sat Oct 24",
-      "note": "Part two of the Unit 4 project. Type your answers in the Canvas box and press Submit.",
-      "status": "open"
+      "note": "You turned this in this morning, Sat Oct 24. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "math-dol-m2t1l1",
@@ -357,5 +357,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-10-24T07:15:00-05:00"
+  "updated": "2026-10-24T12:50:00-05:00"
 }
