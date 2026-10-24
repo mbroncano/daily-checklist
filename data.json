@@ -272,8 +272,8 @@
       "title": "7-U4L3 Velocity",
       "kind": "laptop",
       "due": "2026-10-23",
-      "dueLabel": "Due Fri Oct 23",
-      "note": "Quiz in Canvas. Tap the circle when you finish.",
+      "dueLabel": "Was due Fri Oct 23",
+      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
       "status": "open"
     },
     {
@@ -342,10 +342,20 @@
       "title": "DOL M2T1L1: Introducing Proportions",
       "kind": "school",
       "due": "2026-10-23",
-      "dueLabel": "Today, Fri Oct 23, 3:30pm",
-      "note": "Daily quiz in math class. Nothing to do at home.",
+      "dueLabel": "Done Fri Oct 23",
+      "note": "You took this quiz in class. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "techapps-logos",
+      "subject": "Tech Apps",
+      "title": "Unit 3: Logos (Canva)",
+      "kind": "laptop",
+      "due": "2026-10-22",
+      "dueLabel": "Was due Thu Oct 22, 3:30pm",
+      "note": "Make your logo in Canva and turn it in through Canvas.",
       "status": "open"
     }
   ],
-  "updated": "2026-10-23T07:25:00-05:00"
+  "updated": "2026-10-24T07:15:00-05:00"
 }
