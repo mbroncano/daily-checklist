@@ -48,11 +48,11 @@
     },
     {
       "due": "2026-10-13",
-      "dueLabel": "Was due Tue Oct 13",
+      "dueLabel": "Graded",
       "id": "math-fish-inches",
       "kind": "paper",
-      "note": "Pages 141 and 142 in your math book. If you already handed it in at school, tell Dad.",
-      "status": "open",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified",
       "subject": "Math",
       "title": "Fish-Inches, pages 141-142"
     },
@@ -61,7 +61,7 @@
       "dueLabel": "Was due Thu Oct 15, 3:30pm",
       "id": "math-talk-the-talk-153",
       "kind": "paper",
-      "note": "Pages 153 and 154 in your math book. If you finished it, hand it in tomorrow.",
+      "note": "Pages 153 and 154 in your math book. This one is marked missing, so hand it in at school.",
       "status": "open",
       "subject": "Math",
       "title": "Talk the Talk, pages 153-154"
@@ -271,9 +271,9 @@
       "subject": "Science",
       "title": "7-U4L3 Velocity",
       "kind": "laptop",
-      "due": "2026-10-23",
-      "dueLabel": "Was due Fri Oct 23",
-      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
+      "due": "2026-10-27",
+      "dueLabel": "Due Tue Oct 27, 11:59pm",
+      "note": "Take this quiz in Canvas. You need at least 4 of the 5 questions right.",
       "status": "open"
     },
     {
@@ -282,9 +282,9 @@
       "title": "Markups and Markdowns, page 183",
       "kind": "paper",
       "due": "2026-10-23",
-      "dueLabel": "Due Fri Oct 23, 3:30pm",
-      "note": "Page 183 in your math book.",
-      "status": "open"
+      "dueLabel": "Graded Fri Oct 24",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "studyskills-gallery-walk",
@@ -355,7 +355,37 @@
       "dueLabel": "Was due Thu Oct 22, 3:30pm",
       "note": "Make your logo in Canva and turn it in through Canvas.",
       "status": "open"
+    },
+    {
+      "id": "sci-u4l4-dol",
+      "subject": "Science",
+      "title": "7-U4L4 Velocity and Speed DOL",
+      "kind": "laptop",
+      "due": "2026-10-27",
+      "dueLabel": "Due Tue Oct 27, 11:59pm",
+      "note": "Take this quiz in Canvas.",
+      "status": "open"
+    },
+    {
+      "id": "sci-practice-periodic-table",
+      "subject": "Science",
+      "title": "Practice Periodic Table 21-36",
+      "kind": "laptop",
+      "due": "2026-10-27",
+      "dueLabel": "Due Tue Oct 27, 11:59pm",
+      "note": "Practice words 21 to 36 in the Google Doc in Canvas.",
+      "status": "open"
+    },
+    {
+      "id": "ela-adverbs-quiz",
+      "subject": "ELA",
+      "title": "Adverbs Quiz",
+      "kind": "school",
+      "due": "2026-10-28",
+      "dueLabel": "Due Wed Oct 28",
+      "note": "Ask Ms. Yuan about this quiz in class.",
+      "status": "open"
     }
   ],
-  "updated": "2026-10-24T12:50:00-05:00"
+  "updated": "2026-10-25T07:11:33-05:00"
 }
