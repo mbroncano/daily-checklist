@@ -383,9 +383,59 @@
       "kind": "school",
       "due": "2026-10-28",
       "dueLabel": "Due Wed Oct 28",
-      "note": "Ask Ms. Yuan about this quiz in class.",
+      "note": "This quiz opens Wed Oct 28 in Canvas. Ask Ms. Yuan about it in class.",
+      "status": "open"
+    },
+    {
+      "id": "techapps-imagination",
+      "subject": "Tech Apps",
+      "title": "Unit 3: Imagination",
+      "kind": "laptop",
+      "due": "2026-10-26",
+      "dueLabel": "Was due Mon Oct 26, 11:00am \u2014 still open",
+      "note": "Take this quiz in Canvas. It is about the BrainPop videos on Imagination and Pop Art.",
+      "status": "open"
+    },
+    {
+      "id": "math-perks-of-work",
+      "subject": "Math",
+      "title": "M2T1L2: Perks of Work",
+      "kind": "paper",
+      "due": "2026-10-29",
+      "dueLabel": "Due Thu Oct 29, 3:30pm",
+      "note": "Pages 201 and 202 in your math book. Write your work on notebook paper.",
+      "status": "open"
+    },
+    {
+      "id": "wc-unit4-project-day-three",
+      "subject": "World Cultures",
+      "title": "Unit 4 Project: Day Three",
+      "kind": "laptop",
+      "due": "2026-10-28",
+      "dueLabel": "Due Wed Oct 28, 11:59pm",
+      "note": "Write about your tribe's region in Canvas, then tap Submit.",
+      "status": "open"
+    },
+    {
+      "id": "wc-cycle2-test",
+      "subject": "World Cultures",
+      "title": "Cycle 2 Test",
+      "kind": "school",
+      "due": "2026-10-29",
+      "dueLabel": "In class Wed Oct 28 and Thu Oct 29",
+      "note": "This test is in class. Read the study guide your teacher attached in Canvas.",
+      "status": "open"
+    },
+    {
+      "id": "studyskills-billboard",
+      "subject": "Study Skills",
+      "title": "25 Word Billboard (Egg Contraption)",
+      "kind": "school",
+      "due": "2026-10-23",
+      "dueLabel": "Was due Thu Oct 23",
+      "note": "Writing from class. If you wrote it in class, you are done.",
       "status": "open"
     }
   ],
-  "updated": "2026-10-26T07:12:56-05:00"
+  "updated": "2026-10-27T07:32:32-05:00"
 }
