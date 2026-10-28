@@ -123,11 +123,11 @@
       "title": "Unit 3: Pop Art"
     },
     {
-      "due": "2026-10-19",
-      "dueLabel": "Due Mon Oct 19, 11:59pm",
+      "due": "2026-10-28",
+      "dueLabel": "Due Wed Oct 28, 11:59pm",
       "id": "sci-calculating-speed",
-      "kind": "school",
-      "note": "This quiz is locked in Canvas now and marked missing. Ask Ms. Kim in class how to fix it.",
+      "kind": "laptop",
+      "note": "Take this quiz in Canvas tonight.",
       "status": "open",
       "subject": "Science",
       "title": "7-U4L2 Calculating Speed"
@@ -271,9 +271,9 @@
       "subject": "Science",
       "title": "7-U4L3 Velocity",
       "kind": "laptop",
-      "due": "2026-10-27",
-      "dueLabel": "Due Tue Oct 27, 11:59pm",
-      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
+      "due": "2026-10-28",
+      "dueLabel": "Due Wed Oct 28, 11:59pm",
+      "note": "Take this quiz in Canvas tonight.",
       "status": "open"
     },
     {
@@ -351,9 +351,9 @@
       "subject": "Tech Apps",
       "title": "Unit 3: Logos (Canva)",
       "kind": "laptop",
-      "due": "2026-10-22",
-      "dueLabel": "Was due Thu Oct 22, 3:30pm",
-      "note": "Make your logo in Canva and turn it in through Canvas.",
+      "due": "2026-10-30",
+      "dueLabel": "Due Fri Oct 30, 3:30pm",
+      "note": "Make your logo in Canva (a wordmark or monogram plus a pictogram) and turn it in through Canvas.",
       "status": "open"
     },
     {
@@ -382,9 +382,9 @@
       "title": "Adverbs Quiz",
       "kind": "school",
       "due": "2026-10-28",
-      "dueLabel": "Due Wed Oct 28",
-      "note": "Take this quiz in Canvas today.",
-      "status": "open"
+      "dueLabel": "Done Wed Oct 28",
+      "note": "You took this quiz in Canvas today. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "techapps-imagination",
@@ -392,7 +392,7 @@
       "title": "Unit 3: Imagination",
       "kind": "laptop",
       "due": "2026-10-26",
-      "dueLabel": "Was due Mon Oct 26, 11:00am — still open",
+      "dueLabel": "Was due Mon Oct 26, 11:00am \u2014 still open",
       "note": "Take this quiz in Canvas. It is about the BrainPop videos on Imagination and Pop Art.",
       "status": "open"
     },
@@ -441,11 +441,41 @@
       "subject": "Science",
       "title": "Pop Quiz U4L5: Constant Speed",
       "kind": "school",
-      "due": "2026-10-27",
-      "dueLabel": "Was due Tue Oct 27",
-      "note": "This quiz is marked missing. Ask Ms. Kim in class about it.",
+      "due": "2026-10-29",
+      "dueLabel": "Due Thu Oct 29, 11:59pm",
+      "note": "This quiz is in Canvas. Ask Ms. Kim in class about it.",
+      "status": "open"
+    },
+    {
+      "id": "sci-u4l5-dol",
+      "subject": "Science",
+      "title": "7-U4L5 DOL: Constant Speed",
+      "kind": "laptop",
+      "due": "2026-10-28",
+      "dueLabel": "Due Wed Oct 28, 11:59pm",
+      "note": "Take this quiz in Canvas tonight.",
+      "status": "open"
+    },
+    {
+      "id": "wc-unit4-project-day-four",
+      "subject": "World Cultures",
+      "title": "Unit 4 Project: Day Four",
+      "kind": "laptop",
+      "due": "2026-10-30",
+      "dueLabel": "Due Fri Oct 30, 11:59pm",
+      "note": "You already wrote some of it. Finish it in Canvas and turn it in.",
+      "status": "open"
+    },
+    {
+      "id": "wc-extra-credit",
+      "subject": "World Cultures",
+      "title": "Extra Credit Opportunity",
+      "kind": "laptop",
+      "due": "2026-10-30",
+      "dueLabel": "Due Fri Oct 30, 11:59pm",
+      "note": "Record a short video commercial and email it to your teacher on Outlook. There is nothing to turn in on Canvas.",
       "status": "open"
     }
   ],
-  "updated": "2026-10-28T07:15:38-05:00"
+  "updated": "2026-10-28T17:01:51-05:00"
 }
