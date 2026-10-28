@@ -95,11 +95,11 @@
     },
     {
       "due": "2026-10-15",
-      "dueLabel": "Thu Oct 15",
+      "dueLabel": "Graded",
       "id": "studyskills-pov-egg",
       "kind": "school",
-      "note": "Writing from class. If you wrote it in class, you are done.",
-      "status": "open",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified",
       "subject": "Study Skills",
       "title": "POV Egg Writing"
     },
@@ -273,7 +273,7 @@
       "kind": "laptop",
       "due": "2026-10-27",
       "dueLabel": "Due Tue Oct 27, 11:59pm",
-      "note": "Take this quiz in Canvas. You need at least 4 of the 5 questions right.",
+      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
       "status": "open"
     },
     {
@@ -363,7 +363,7 @@
       "kind": "laptop",
       "due": "2026-10-27",
       "dueLabel": "Due Tue Oct 27, 11:59pm",
-      "note": "Take this quiz in Canvas.",
+      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
       "status": "open"
     },
     {
@@ -373,7 +373,7 @@
       "kind": "laptop",
       "due": "2026-10-27",
       "dueLabel": "Due Tue Oct 27, 11:59pm",
-      "note": "Practice words 21 to 36 in the Google Doc in Canvas.",
+      "note": "This one is past due. Finish words 21 to 36 in the Google Doc in Canvas and turn it in.",
       "status": "open"
     },
     {
@@ -383,7 +383,7 @@
       "kind": "school",
       "due": "2026-10-28",
       "dueLabel": "Due Wed Oct 28",
-      "note": "This quiz opens Wed Oct 28 in Canvas. Ask Ms. Yuan about it in class.",
+      "note": "Take this quiz in Canvas today.",
       "status": "open"
     },
     {
@@ -392,7 +392,7 @@
       "title": "Unit 3: Imagination",
       "kind": "laptop",
       "due": "2026-10-26",
-      "dueLabel": "Was due Mon Oct 26, 11:00am \u2014 still open",
+      "dueLabel": "Was due Mon Oct 26, 11:00am — still open",
       "note": "Take this quiz in Canvas. It is about the BrainPop videos on Imagination and Pop Art.",
       "status": "open"
     },
@@ -412,9 +412,9 @@
       "title": "Unit 4 Project: Day Three",
       "kind": "laptop",
       "due": "2026-10-28",
-      "dueLabel": "Due Wed Oct 28, 11:59pm",
-      "note": "Write about your tribe's region in Canvas, then tap Submit.",
-      "status": "open"
+      "dueLabel": "Submitted Tue Oct 27",
+      "note": "You turned this in Tue Oct 27. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "wc-cycle2-test",
@@ -435,7 +435,17 @@
       "dueLabel": "Was due Thu Oct 23",
       "note": "Writing from class. If you wrote it in class, you are done.",
       "status": "open"
+    },
+    {
+      "id": "sci-pop-quiz-u4l5",
+      "subject": "Science",
+      "title": "Pop Quiz U4L5: Constant Speed",
+      "kind": "school",
+      "due": "2026-10-27",
+      "dueLabel": "Was due Tue Oct 27",
+      "note": "This quiz is marked missing. Ask Ms. Kim in class about it.",
+      "status": "open"
     }
   ],
-  "updated": "2026-10-27T07:32:32-05:00"
+  "updated": "2026-10-28T07:15:38-05:00"
 }
