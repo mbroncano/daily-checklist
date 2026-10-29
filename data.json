@@ -127,7 +127,7 @@
       "dueLabel": "Due Wed Oct 28, 11:59pm",
       "id": "sci-calculating-speed",
       "kind": "laptop",
-      "note": "Take this quiz in Canvas tonight.",
+      "note": "This quiz is past due. Ask Ms. Kim in class about it.",
       "status": "open",
       "subject": "Science",
       "title": "7-U4L2 Calculating Speed"
@@ -273,7 +273,7 @@
       "kind": "laptop",
       "due": "2026-10-28",
       "dueLabel": "Due Wed Oct 28, 11:59pm",
-      "note": "Take this quiz in Canvas tonight.",
+      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
       "status": "open"
     },
     {
@@ -351,9 +351,9 @@
       "subject": "Tech Apps",
       "title": "Unit 3: Logos (Canva)",
       "kind": "laptop",
-      "due": "2026-10-30",
-      "dueLabel": "Due Fri Oct 30, 3:30pm",
-      "note": "Make your logo in Canva (a wordmark or monogram plus a pictogram) and turn it in through Canvas.",
+      "due": "2026-10-22",
+      "dueLabel": "Was due Thu Oct 22, 3:30pm",
+      "note": "Make your logo in Canva and turn it in through Canvas.",
       "status": "open"
     },
     {
@@ -392,7 +392,7 @@
       "title": "Unit 3: Imagination",
       "kind": "laptop",
       "due": "2026-10-26",
-      "dueLabel": "Was due Mon Oct 26, 11:00am \u2014 still open",
+      "dueLabel": "Was due Mon Oct 26, 11:00am — still open",
       "note": "Take this quiz in Canvas. It is about the BrainPop videos on Imagination and Pop Art.",
       "status": "open"
     },
@@ -432,9 +432,9 @@
       "title": "25 Word Billboard (Egg Contraption)",
       "kind": "school",
       "due": "2026-10-23",
-      "dueLabel": "Was due Thu Oct 23",
-      "note": "Writing from class. If you wrote it in class, you are done.",
-      "status": "open"
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-pop-quiz-u4l5",
@@ -453,7 +453,7 @@
       "kind": "laptop",
       "due": "2026-10-28",
       "dueLabel": "Due Wed Oct 28, 11:59pm",
-      "note": "Take this quiz in Canvas tonight.",
+      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
       "status": "open"
     },
     {
@@ -475,7 +475,37 @@
       "dueLabel": "Due Fri Oct 30, 11:59pm",
       "note": "Record a short video commercial and email it to your teacher on Outlook. There is nothing to turn in on Canvas.",
       "status": "open"
+    },
+    {
+      "id": "techapps-logo-design",
+      "subject": "Tech Apps",
+      "title": "Unit 3: Logo Design",
+      "kind": "laptop",
+      "due": "2026-10-30",
+      "dueLabel": "Due Fri Oct 30, 3:30pm",
+      "note": "You turned this in Wed Oct 28. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "ela-noredink-rice-harvest",
+      "subject": "ELA",
+      "title": "NoRedInk Analysis (The Rice Harvest)",
+      "kind": "laptop",
+      "due": "2026-10-30",
+      "dueLabel": "Due Fri Oct 30",
+      "note": "Do this in NoRedInk. Tap the circle when you finish.",
+      "status": "open"
+    },
+    {
+      "id": "math-dol-m2t1l2",
+      "subject": "Math",
+      "title": "DOL M2T1L2: Perks of Work",
+      "kind": "school",
+      "due": "2026-10-29",
+      "dueLabel": "Due Thu Oct 29, 3:30pm",
+      "note": "Quick check in class today.",
+      "status": "open"
     }
   ],
-  "updated": "2026-10-28T17:01:51-05:00"
+  "updated": "2026-10-29T05:19:40-05:00"
 }
