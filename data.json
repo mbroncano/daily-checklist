@@ -392,7 +392,7 @@
       "title": "Unit 3: Imagination",
       "kind": "laptop",
       "due": "2026-10-26",
-      "dueLabel": "Was due Mon Oct 26, 11:00am — still open",
+      "dueLabel": "Was due Mon Oct 26, 11:00am \u2014 still open",
       "note": "Take this quiz in Canvas. It is about the BrainPop videos on Imagination and Pop Art.",
       "status": "open"
     },
@@ -443,8 +443,8 @@
       "kind": "school",
       "due": "2026-10-29",
       "dueLabel": "Due Thu Oct 29, 11:59pm",
-      "note": "This quiz is in Canvas. Ask Ms. Kim in class about it.",
-      "status": "open"
+      "note": "You took this quiz in Canvas. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-u4l5-dol",
@@ -503,9 +503,19 @@
       "kind": "school",
       "due": "2026-10-29",
       "dueLabel": "Due Thu Oct 29, 3:30pm",
-      "note": "Quick check in class today.",
+      "note": "You turned this in today. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "sci-pop-quiz-u4l6",
+      "subject": "Science",
+      "title": "Pop Quiz U4L6",
+      "kind": "school",
+      "due": "2026-10-29",
+      "dueLabel": "Due Thu Oct 29, 11:59pm",
+      "note": "This quiz is in Canvas. Ask Ms. Kim in class about it.",
       "status": "open"
     }
   ],
-  "updated": "2026-10-29T05:19:40-05:00"
+  "updated": "2026-10-29T16:31:04-05:00"
 }
