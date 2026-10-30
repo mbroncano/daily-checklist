@@ -64,10 +64,11 @@
   <div class="mission" id="mission" style="display:none"></div>
 </header>
 <main id="app"></main>
-<footer>Tap the circle when you finish something.<br>It turns green when Dad verifies it in Canvas/PowerSchool.<br>🔴 Overdue &nbsp;·&nbsp; 🟠 Due today &nbsp;·&nbsp; 🟡 Due soon</footer>
+<footer>Tap the circle when you finish something.<br>It turns green when Canvas or PowerSchool shows it done.<br>🔴 Overdue &nbsp;·&nbsp; 🟠 Due today &nbsp;·&nbsp; 🟡 Due soon</footer>
 
 <script>
 const LS_KEY = "hw-claimed-v1";
+const LS_STAMP_KEY = "hw-claimed-for-v1";
 let data = null;
 
 function claimedSet() {
@@ -75,6 +76,22 @@ function claimedSet() {
   catch { return new Set(); }
 }
 function saveClaimed(s) { localStorage.setItem(LS_KEY, JSON.stringify([...s])); }
+
+// Each fresh list resets the tap-to-done state: a tap only ever applies to the
+// list version it was made on. When a new check publishes a new data.json
+// (new "updated" timestamp), any earlier taps are wiped, so an item can never
+// look done just because it was tapped during a previous round. Items the
+// systems confirm stay green via their "verified" status, which is separate
+// from taps and is never cleared here.
+function resetClaimedIfStale() {
+  if (!data || !data.updated) return;
+  try {
+    if (localStorage.getItem(LS_STAMP_KEY) !== data.updated) {
+      localStorage.setItem(LS_KEY, "[]");
+      localStorage.setItem(LS_STAMP_KEY, data.updated);
+    }
+  } catch { /* storage unavailable: taps just won't persist */ }
+}
 
 const SUBJECTS = {
   "Math": { icon: "🔢", bg: "#e0e7ff", fg: "#3730a3" },
@@ -234,7 +251,7 @@ function render() {
   if (isFinite(ageHours) && ageHours > 26) {
     const b = document.createElement("div");
     b.className = "banner stale";
-    b.textContent = "This list has not been updated in a while. Ask Dad to check it.";
+    b.textContent = "This list has not been updated in a while.";
     app.appendChild(b);
   }
 
@@ -270,6 +287,7 @@ async function load() {
     const r = await fetch("data.json?ts=" + Date.now(), { cache: "no-store" });
     if (!r.ok) throw new Error(r.status);
     data = await r.json();
+    resetClaimedIfStale();
   } catch (e) {
     if (!data) {
       document.getElementById("updated").textContent = "Could not load the list. Check connection and reopen.";
