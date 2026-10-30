@@ -512,10 +512,10 @@
       "title": "Pop Quiz U4L6",
       "kind": "school",
       "due": "2026-10-30",
-      "dueLabel": "Due Fri Oct 30, 11:59pm",
-      "note": "This quiz is due tonight. Ask Ms. Kim in class about it.",
-      "status": "open"
+      "dueLabel": "Done Fri Oct 30",
+      "note": "You took this quiz in Canvas. Dad checked.",
+      "status": "verified"
     }
   ],
-  "updated": "2026-10-30T16:23:00-05:00"
+  "updated": "2026-10-30T17:04:00-05:00"
 }
