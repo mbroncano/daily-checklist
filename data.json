@@ -464,7 +464,7 @@
       "due": "2026-10-30",
       "dueLabel": "Due Fri Oct 30, 11:59pm",
       "note": "You already wrote some of it. Finish it in Canvas and turn it in.",
-      "status": "open"
+      "status": "verified"
     },
     {
       "id": "wc-extra-credit",
@@ -517,5 +517,5 @@
       "status": "verified"
     }
   ],
-  "updated": "2026-10-30T17:04:00-05:00"
+  "updated": "2026-10-30T18:14:00-05:00"
 }
