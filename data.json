@@ -124,11 +124,11 @@
     },
     {
       "due": "2026-10-28",
-      "dueLabel": "Due Wed Oct 28, 11:59pm",
+      "dueLabel": "Turned in late Fri Oct 30",
       "id": "sci-calculating-speed",
       "kind": "laptop",
-      "note": "This quiz is past due. Ask Ms. Kim in class about it.",
-      "status": "open",
+      "note": "You turned this in late Oct 30. Dad checked.",
+      "status": "verified",
       "subject": "Science",
       "title": "7-U4L2 Calculating Speed"
     },
@@ -272,9 +272,9 @@
       "title": "7-U4L3 Velocity",
       "kind": "laptop",
       "due": "2026-10-28",
-      "dueLabel": "Due Wed Oct 28, 11:59pm",
-      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
-      "status": "open"
+      "dueLabel": "Turned in late Fri Oct 30",
+      "note": "You turned this in late Oct 30. Waiting for the grade. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "math-markups-p183",
@@ -452,9 +452,9 @@
       "title": "7-U4L5 DOL: Constant Speed",
       "kind": "laptop",
       "due": "2026-10-28",
-      "dueLabel": "Due Wed Oct 28, 11:59pm",
-      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
-      "status": "open"
+      "dueLabel": "Turned in late Fri Oct 30",
+      "note": "You turned this in late Oct 30. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "wc-unit4-project-day-four",
@@ -462,8 +462,8 @@
       "title": "Unit 4 Project: Day Four",
       "kind": "laptop",
       "due": "2026-10-30",
-      "dueLabel": "Due Fri Oct 30, 11:59pm",
-      "note": "You already wrote some of it. Finish it in Canvas and turn it in.",
+      "dueLabel": "Turned in Fri Oct 30",
+      "note": "You turned this in Fri Oct 30. Dad checked.",
       "status": "verified"
     },
     {
@@ -515,7 +515,17 @@
       "dueLabel": "Done Fri Oct 30",
       "note": "You took this quiz in Canvas. Dad checked.",
       "status": "verified"
+    },
+    {
+      "id": "sci-u4l6-dol",
+      "subject": "Science",
+      "title": "7-U4L6 DOL",
+      "kind": "laptop",
+      "due": "2026-10-30",
+      "dueLabel": "Done Fri Oct 30",
+      "note": "You took this quiz in Canvas. Dad checked.",
+      "status": "verified"
     }
   ],
-  "updated": "2026-10-30T18:14:00-05:00"
+  "updated": "2026-10-31T05:11:00-05:00"
 }
