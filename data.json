@@ -472,7 +472,7 @@
       "title": "Extra Credit Opportunity",
       "kind": "laptop",
       "due": "2026-10-30",
-      "dueLabel": "Due Fri Oct 30, 11:59pm",
+      "dueLabel": "Was due Fri Oct 30, 11:59pm",
       "note": "Record a short video commercial and email it to your teacher on Outlook. There is nothing to turn in on Canvas.",
       "status": "open"
     },
@@ -492,9 +492,9 @@
       "title": "NoRedInk Analysis (The Rice Harvest)",
       "kind": "laptop",
       "due": "2026-10-30",
-      "dueLabel": "Due Fri Oct 30",
-      "note": "Do this in NoRedInk. Tap the circle when you finish.",
-      "status": "open"
+      "dueLabel": "Turned in late, waiting for grade",
+      "note": "You turned this in. Waiting for the grade. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "math-dol-m2t1l2",
@@ -527,5 +527,5 @@
       "status": "verified"
     }
   ],
-  "updated": "2026-10-31T05:11:00-05:00"
+  "updated": "2026-11-01T05:25:00-06:00"
 }
