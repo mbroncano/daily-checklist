@@ -525,7 +525,17 @@
       "dueLabel": "Done Fri Oct 30",
       "note": "You took this quiz in Canvas. Dad checked.",
       "status": "verified"
+    },
+    {
+      "id": "math-m2t1l3-no-taxation",
+      "subject": "Math",
+      "title": "M2T1L3: No Taxation Without Calculation, page 215",
+      "kind": "paper",
+      "due": "2026-11-04",
+      "dueLabel": "Due Wed Nov 4",
+      "note": "Page 215 in your math book. Do the practice in your math notebook.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-01T05:25:00-06:00"
+  "updated": "2026-11-02T05:15:00-06:00"
 }
