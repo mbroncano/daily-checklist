@@ -493,7 +493,7 @@
       "kind": "laptop",
       "due": "2026-10-30",
       "dueLabel": "Turned in late, waiting for grade",
-      "note": "You turned this in. Waiting for the grade. Dad checked.",
+      "note": "You turned this in late. Dad checked.",
       "status": "verified"
     },
     {
@@ -535,7 +535,17 @@
       "dueLabel": "Due Wed Nov 4",
       "note": "Page 215 in your math book. Do the practice in your math notebook.",
       "status": "open"
+    },
+    {
+      "id": "wc-unit4-project-day-five",
+      "subject": "World Cultures",
+      "title": "Unit 4 Project: Day Five",
+      "kind": "laptop",
+      "due": "2026-11-03",
+      "dueLabel": "Due Tue Nov 3, 11:59pm",
+      "note": "Write Day Five of your Unit 4 project in Canvas and turn it in.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-02T05:15:00-06:00"
+  "updated": "2026-11-02T15:10:00-06:00"
 }
