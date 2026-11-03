@@ -555,7 +555,17 @@
       "dueLabel": "Due Fri Nov 6, 11:59pm",
       "note": "Take this quiz in Canvas when you are ready to take it.",
       "status": "open"
+    },
+    {
+      "id": "wc-u5l4-partition",
+      "subject": "World Cultures",
+      "title": "U5L4 Classignment: Partition",
+      "kind": "laptop",
+      "due": "2026-11-03",
+      "dueLabel": "Due Tue Nov 3, 3:30pm",
+      "note": "You already started this one in Canvas. Open it and tap submit.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-03T05:08:00-06:00"
+  "updated": "2026-11-03T15:11:00-06:00"
 }
