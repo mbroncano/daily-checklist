@@ -545,7 +545,17 @@
       "dueLabel": "Due Tue Nov 3, 11:59pm",
       "note": "Write Day Five of your Unit 4 project in Canvas and turn it in.",
       "status": "open"
+    },
+    {
+      "id": "sci-unit4-mid-cycle-2",
+      "subject": "Science",
+      "title": "7-Unit 4 Mid Cycle 2",
+      "kind": "laptop",
+      "due": "2026-11-06",
+      "dueLabel": "Due Fri Nov 6, 11:59pm",
+      "note": "Take this quiz in Canvas when you are ready to take it.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-02T15:10:00-06:00"
+  "updated": "2026-11-03T05:08:00-06:00"
 }
