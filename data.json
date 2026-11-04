@@ -454,10 +454,10 @@
       "title": "DOL M2T1L3",
       "kind": "school",
       "due": "2026-11-04",
-      "dueLabel": "Due Wed Nov 4, 3:30pm",
-      "note": "You do this one in class today.",
-      "status": "open"
+      "dueLabel": "Done Wed Nov 4",
+      "note": "You did this one in class today. Dad checked.",
+      "status": "verified"
     }
   ],
-  "updated": "2026-11-04T05:09:05-06:00"
+  "updated": "2026-11-04T15:20:00-06:00"
 }
