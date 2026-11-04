@@ -424,9 +424,9 @@
       "title": "Unit 4 Project: Day Five",
       "kind": "laptop",
       "due": "2026-11-03",
-      "dueLabel": "Due Tue Nov 3, 11:59pm",
-      "note": "Write Day Five of your Unit 4 project in Canvas and turn it in.",
-      "status": "open"
+      "dueLabel": "Submitted Tue Nov 3, 6:46pm",
+      "note": "You turned this in on time. Waiting for the grade. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-unit4-mid-cycle-2",
@@ -444,10 +444,20 @@
       "title": "U5L4 Classignment: Partition",
       "kind": "laptop",
       "due": "2026-11-03",
-      "dueLabel": "Due Tue Nov 3, 3:30pm",
-      "note": "You already started this one in Canvas. Open it and tap submit.",
+      "dueLabel": "Submitted Tue Nov 3, 3:14pm",
+      "note": "You turned this in on time. Waiting for the grade. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "math-dol-m2t1l3",
+      "subject": "Math",
+      "title": "DOL M2T1L3",
+      "kind": "school",
+      "due": "2026-11-04",
+      "dueLabel": "Due Wed Nov 4, 3:30pm",
+      "note": "You do this one in class today.",
       "status": "open"
     }
   ],
-  "updated": "2026-11-03T16:20:00-06:00"
+  "updated": "2026-11-04T05:09:05-06:00"
 }
