@@ -57,24 +57,6 @@
       "title": "Fish-Inches, pages 141-142"
     },
     {
-      "due": "2026-10-15",
-      "dueLabel": "Was due Thu Oct 15, 3:30pm",
-      "id": "math-talk-the-talk-153",
-      "kind": "paper",
-      "note": "Pages 153 and 154 in your math book. This one is marked missing, so hand it in at school.",
-      "status": "open",
-      "subject": "Math",
-      "title": "Talk the Talk, pages 153-154"
-    },
-    {
-      "id": "studyskills-find-the-error",
-      "kind": "paper",
-      "note": "Paper handout. Do it on notebook paper or the back of the challenge report.",
-      "status": "open",
-      "subject": "Study Skills",
-      "title": "Find The Error handout"
-    },
-    {
       "due": "2026-10-12",
       "dueLabel": "Done",
       "id": "wc-timeline",
@@ -102,16 +84,6 @@
       "status": "verified",
       "subject": "Study Skills",
       "title": "POV Egg Writing"
-    },
-    {
-      "due": "2026-10-16",
-      "dueLabel": "Was due Fri Oct 16, 3:30pm",
-      "id": "techapps-color",
-      "kind": "school",
-      "note": "This quiz is closed now. If your teacher talks about it, tell Dad.",
-      "status": "open",
-      "subject": "Tech Apps",
-      "title": "Unit 3: Color"
     },
     {
       "dueLabel": "Done Fri Oct 16",
@@ -287,36 +259,6 @@
       "status": "verified"
     },
     {
-      "id": "studyskills-gallery-walk",
-      "subject": "Study Skills",
-      "title": "Gallery Walk Tower Handout",
-      "kind": "school",
-      "due": "2026-09-22",
-      "dueLabel": "From September",
-      "note": "Tower handout from September. Ask your teacher if you can still turn it in.",
-      "status": "open"
-    },
-    {
-      "id": "studyskills-tower-challenge",
-      "subject": "Study Skills",
-      "title": "Tower Challenge Report",
-      "kind": "school",
-      "due": "2026-09-22",
-      "dueLabel": "From September",
-      "note": "Tower report from September. Ask your teacher if you can still turn it in.",
-      "status": "open"
-    },
-    {
-      "id": "studyskills-tower-reflection",
-      "subject": "Study Skills",
-      "title": "100 Word Tower Reflection",
-      "kind": "school",
-      "due": "2026-09-30",
-      "dueLabel": "From September",
-      "note": "Tower writing from September. Ask your teacher about it.",
-      "status": "open"
-    },
-    {
       "id": "wc-u4l3-wanted",
       "subject": "World Cultures",
       "title": "U4L3 Wanted Poster",
@@ -347,36 +289,6 @@
       "status": "verified"
     },
     {
-      "id": "techapps-logos",
-      "subject": "Tech Apps",
-      "title": "Unit 3: Logos (Canva)",
-      "kind": "laptop",
-      "due": "2026-10-22",
-      "dueLabel": "Was due Thu Oct 22, 3:30pm",
-      "note": "Make your logo in Canva and turn it in through Canvas.",
-      "status": "open"
-    },
-    {
-      "id": "sci-u4l4-dol",
-      "subject": "Science",
-      "title": "7-U4L4 Velocity and Speed DOL",
-      "kind": "laptop",
-      "due": "2026-10-27",
-      "dueLabel": "Due Tue Oct 27, 11:59pm",
-      "note": "This quiz is marked missing now. Ask Ms. Kim in class how to fix it.",
-      "status": "open"
-    },
-    {
-      "id": "sci-practice-periodic-table",
-      "subject": "Science",
-      "title": "Practice Periodic Table 21-36",
-      "kind": "laptop",
-      "due": "2026-10-27",
-      "dueLabel": "Due Tue Oct 27, 11:59pm",
-      "note": "This one is past due. Finish words 21 to 36 in the Google Doc in Canvas and turn it in.",
-      "status": "open"
-    },
-    {
       "id": "ela-adverbs-quiz",
       "subject": "ELA",
       "title": "Adverbs Quiz",
@@ -397,16 +309,6 @@
       "status": "verified"
     },
     {
-      "id": "math-perks-of-work",
-      "subject": "Math",
-      "title": "M2T1L2: Perks of Work",
-      "kind": "paper",
-      "due": "2026-10-29",
-      "dueLabel": "Due Thu Oct 29, 3:30pm",
-      "note": "Pages 201 and 202 in your math book. Write your work on notebook paper.",
-      "status": "open"
-    },
-    {
       "id": "wc-unit4-project-day-three",
       "subject": "World Cultures",
       "title": "Unit 4 Project: Day Three",
@@ -415,16 +317,6 @@
       "dueLabel": "Submitted Tue Oct 27",
       "note": "You turned this in Tue Oct 27. Dad checked.",
       "status": "verified"
-    },
-    {
-      "id": "wc-cycle2-test",
-      "subject": "World Cultures",
-      "title": "Cycle 2 Test",
-      "kind": "school",
-      "due": "2026-10-29",
-      "dueLabel": "In class Wed Oct 28 and Thu Oct 29",
-      "note": "This test is in class. Read the study guide your teacher attached in Canvas.",
-      "status": "open"
     },
     {
       "id": "studyskills-billboard",
@@ -465,16 +357,6 @@
       "dueLabel": "Turned in Fri Oct 30",
       "note": "You turned this in Fri Oct 30. Dad checked.",
       "status": "verified"
-    },
-    {
-      "id": "wc-extra-credit",
-      "subject": "World Cultures",
-      "title": "Extra Credit Opportunity",
-      "kind": "laptop",
-      "due": "2026-10-30",
-      "dueLabel": "Was due Fri Oct 30, 11:59pm",
-      "note": "Record a short video commercial and email it to your teacher on Outlook. There is nothing to turn in on Canvas.",
-      "status": "open"
     },
     {
       "id": "techapps-logo-design",
@@ -567,5 +449,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-03T15:11:00-06:00"
+  "updated": "2026-11-03T16:20:00-06:00"
 }
