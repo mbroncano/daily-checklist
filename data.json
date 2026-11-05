@@ -434,9 +434,9 @@
       "title": "7-Unit 4 Mid Cycle 2",
       "kind": "laptop",
       "due": "2026-11-06",
-      "dueLabel": "Due Fri Nov 6, 11:59pm",
-      "note": "Take this quiz in Canvas when you are ready to take it.",
-      "status": "open"
+      "dueLabel": "Done Wed Nov 4",
+      "note": "You took this quiz on Nov 4. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "wc-u5l4-partition",
@@ -459,5 +459,5 @@
       "status": "verified"
     }
   ],
-  "updated": "2026-11-04T15:20:00-06:00"
+  "updated": "2026-11-05T05:05:00-06:00"
 }
