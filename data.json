@@ -457,7 +457,27 @@
       "dueLabel": "Done Wed Nov 4",
       "note": "You did this one in class today. Dad checked.",
       "status": "verified"
+    },
+    {
+      "id": "math-m2t1l4-more-ups-and-downs",
+      "subject": "Math",
+      "title": "M2T1L4: More Ups and Downs, page 229",
+      "kind": "paper",
+      "due": "2026-11-09",
+      "dueLabel": "Due Mon Nov 9, 3:30pm",
+      "note": "Page 229 in your math book. Do the practice in your math notebook.",
+      "status": "open"
+    },
+    {
+      "id": "mathia-m2-unit-1",
+      "subject": "Math",
+      "title": "MATHia M2 Unit 1",
+      "kind": "laptop",
+      "due": "2026-11-09",
+      "dueLabel": "Due Mon Nov 9",
+      "note": "Work on this inside MATHia. Tap the circle when you finish.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-05T15:10:00-06:00"
+  "updated": "2026-11-06T05:08:00-06:00"
 }
