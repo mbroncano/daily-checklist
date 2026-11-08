@@ -477,7 +477,17 @@
       "dueLabel": "Due Mon Nov 9",
       "note": "Work on this inside MATHia. Tap the circle when you finish.",
       "status": "open"
+    },
+    {
+      "id": "sci-u5l2-3-distance-time-graphs",
+      "subject": "Science",
+      "title": "7-U5L2-3 Distance Time Graphs",
+      "kind": "school",
+      "due": "2026-11-11",
+      "dueLabel": "Due Wed Nov 11, 11:59pm",
+      "note": "Open this in Canvas and see what it asks for. If it won't open, ask your teacher.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-07T05:05:00-06:00"
+  "updated": "2026-11-08T05:15:00-06:00"
 }
