@@ -463,9 +463,9 @@
       "subject": "Math",
       "title": "DOL M2T1L4: Percent Increase and Percent Decrease",
       "kind": "school",
-      "due": "2026-11-09",
-      "dueLabel": "Due Mon Nov 9, 3:30pm",
-      "note": "Do this quiz in class today. It opens at 1:30pm.",
+      "due": "2026-11-10",
+      "dueLabel": "Due Tue Nov 10, 11:59pm",
+      "note": "Do this quiz in class tomorrow.",
       "status": "open"
     },
     {
@@ -497,7 +497,17 @@
       "dueLabel": "Due Wed Nov 11, 11:59pm",
       "note": "Open this in Canvas and see what it asks for. If it won't open, ask your teacher.",
       "status": "open"
+    },
+    {
+      "id": "sci-unit6-forces-inertia-dol",
+      "subject": "Science",
+      "title": "Unit 6 \u2013 Forces and Inertia DOL",
+      "kind": "school",
+      "due": "2026-11-13",
+      "dueLabel": "Done Mon Nov 9",
+      "note": "You took this quiz in class today. Dad checked.",
+      "status": "verified"
     }
   ],
-  "updated": "2026-11-09T11:06:49-06:00"
+  "updated": "2026-11-09T15:16:00-06:00"
 }
