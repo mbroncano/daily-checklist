@@ -459,6 +459,16 @@
       "status": "verified"
     },
     {
+      "id": "math-dol-m2t1l4",
+      "subject": "Math",
+      "title": "DOL M2T1L4: Percent Increase and Percent Decrease",
+      "kind": "school",
+      "due": "2026-11-09",
+      "dueLabel": "Due Mon Nov 9, 3:30pm",
+      "note": "Do this quiz in class today. It opens at 1:30pm.",
+      "status": "open"
+    },
+    {
       "id": "math-m2t1l4-more-ups-and-downs",
       "subject": "Math",
       "title": "M2T1L4: More Ups and Downs, page 229",
@@ -489,5 +499,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-08T05:15:00-06:00"
+  "updated": "2026-11-09T11:06:49-06:00"
 }
