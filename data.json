@@ -465,7 +465,7 @@
       "kind": "school",
       "due": "2026-11-10",
       "dueLabel": "Due Tue Nov 10, 11:59pm",
-      "note": "Do this quiz in class tomorrow.",
+      "note": "Do this quiz in class today.",
       "status": "open"
     },
     {
@@ -474,7 +474,7 @@
       "title": "M2T1L4: More Ups and Downs, page 229",
       "kind": "paper",
       "due": "2026-11-09",
-      "dueLabel": "Due Mon Nov 9, 3:30pm",
+      "dueLabel": "Was due Mon Nov 9, 3:30pm",
       "note": "Page 229 in your math book. Do the practice in your math notebook.",
       "status": "open"
     },
@@ -484,8 +484,8 @@
       "title": "MATHia M2 Unit 1",
       "kind": "laptop",
       "due": "2026-11-09",
-      "dueLabel": "Due Mon Nov 9",
-      "note": "Work on this inside MATHia. Tap the circle when you finish.",
+      "dueLabel": "Overdue — was due Mon Nov 9, 11:59pm",
+      "note": "You finished 5 parts so far. Keep working in MATHia. Tap the circle when you finish.",
       "status": "open"
     },
     {
@@ -495,19 +495,29 @@
       "kind": "school",
       "due": "2026-11-11",
       "dueLabel": "Due Wed Nov 11, 11:59pm",
-      "note": "Open this in Canvas and see what it asks for. If it won't open, ask your teacher.",
+      "note": "This is a quiz in Canvas. Open it only when you're ready to take it — ask your teacher if you're not sure.",
       "status": "open"
     },
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 \u2013 Forces and Inertia DOL",
+      "title": "Unit 6 – Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
       "note": "You took this quiz in class today. Dad checked.",
       "status": "verified"
+    },
+    {
+      "id": "techapps-word-quiz-1",
+      "subject": "Tech Apps",
+      "title": "MS Word Quiz #1",
+      "kind": "school",
+      "due": "2026-11-12",
+      "dueLabel": "Due Thu Nov 12, 11:00am",
+      "note": "This is a quiz. Ask your teacher when to take it.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-09T15:16:00-06:00"
+  "updated": "2026-11-10T05:07:00-06:00"
 }
