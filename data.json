@@ -465,7 +465,7 @@
       "kind": "school",
       "due": "2026-11-10",
       "dueLabel": "Due Tue Nov 10, 11:59pm",
-      "note": "Do this quiz in class today.",
+      "note": "Due tonight. Ask your teacher if you missed it in class.",
       "status": "open"
     },
     {
@@ -517,7 +517,27 @@
       "dueLabel": "Due Thu Nov 12, 11:00am",
       "note": "This is a quiz. Ask your teacher when to take it.",
       "status": "open"
+    },
+    {
+      "id": "techapps-word-scavenger-hunt",
+      "subject": "Tech Apps",
+      "title": "MS Word Scavenger Hunt (Squad)",
+      "kind": "school",
+      "due": "2026-11-12",
+      "dueLabel": "Done Tue Nov 10",
+      "note": "You did this quiz on the lab computer. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "ela-a-day-hw-11-10",
+      "subject": "ELA",
+      "title": "A Day ELAR Homework",
+      "kind": "laptop",
+      "due": "2026-11-12",
+      "dueLabel": "Due Thu Nov 12",
+      "note": "Study your clauses notes and finish reading Red Scarf Girl in Amplify.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-10T05:07:00-06:00"
+  "updated": "2026-11-10T15:16:00-06:00"
 }
