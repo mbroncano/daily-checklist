@@ -464,7 +464,7 @@
       "title": "DOL M2T1L4: Percent Increase and Percent Decrease",
       "kind": "school",
       "due": "2026-11-10",
-      "dueLabel": "Was due Tue Nov 10, 11:59pm — now marked missing",
+      "dueLabel": "Was due Tue Nov 10, 11:59pm \u2014 now marked missing",
       "note": "This quiz was due last night and is marked missing. Ask your teacher if you can still take it.",
       "status": "open"
     },
@@ -484,9 +484,9 @@
       "title": "MATHia M2 Unit 1",
       "kind": "laptop",
       "due": "2026-11-09",
-      "dueLabel": "Overdue — was due Mon Nov 9, 11:59pm",
-      "note": "You finished 8 parts so far. Keep working in MATHia. Tap the circle when you finish.",
-      "status": "open"
+      "dueLabel": "Done Wed Nov 11",
+      "note": "You finished all 10 parts in MATHia. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-u5l2-3-distance-time-graphs",
@@ -495,13 +495,13 @@
       "kind": "school",
       "due": "2026-11-11",
       "dueLabel": "Due Wed Nov 11, 11:59pm",
-      "note": "This is a quiz in Canvas. Open it only when you're ready to take it — ask your teacher if you're not sure.",
+      "note": "This is a quiz in Canvas. Open it only when you're ready to take it \u2014 ask your teacher if you're not sure.",
       "status": "open"
     },
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 – Forces and Inertia DOL",
+      "title": "Unit 6 \u2013 Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -544,7 +544,7 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 — shows as missing",
+      "dueLabel": "Was due Wed Nov 5 \u2014 shows as missing",
       "note": "This one shows as missing. Ask your teacher what to turn in.",
       "status": "open"
     },
@@ -589,5 +589,5 @@
       "status": "verified"
     }
   ],
-  "updated": "2026-11-11T15:16:00-06:00"
+  "updated": "2026-11-11T17:59:00-06:00"
 }
