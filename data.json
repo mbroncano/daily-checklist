@@ -414,9 +414,9 @@
       "title": "M2T1L3: No Taxation Without Calculation, page 215",
       "kind": "paper",
       "due": "2026-11-04",
-      "dueLabel": "Due Wed Nov 4",
-      "note": "Page 215 in your math book. Do the practice in your math notebook.",
-      "status": "open"
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "wc-unit4-project-day-five",
@@ -464,7 +464,7 @@
       "title": "DOL M2T1L4: Percent Increase and Percent Decrease",
       "kind": "school",
       "due": "2026-11-10",
-      "dueLabel": "Was due Tue Nov 10, 11:59pm \u2014 now marked missing",
+      "dueLabel": "Was due Tue Nov 10, 11:59pm — now marked missing",
       "note": "This quiz was due last night and is marked missing. Ask your teacher if you can still take it.",
       "status": "open"
     },
@@ -484,7 +484,7 @@
       "title": "MATHia M2 Unit 1",
       "kind": "laptop",
       "due": "2026-11-09",
-      "dueLabel": "Overdue \u2014 was due Mon Nov 9, 11:59pm",
+      "dueLabel": "Overdue — was due Mon Nov 9, 11:59pm",
       "note": "You finished 8 parts so far. Keep working in MATHia. Tap the circle when you finish.",
       "status": "open"
     },
@@ -495,13 +495,13 @@
       "kind": "school",
       "due": "2026-11-11",
       "dueLabel": "Due Wed Nov 11, 11:59pm",
-      "note": "This is a quiz in Canvas. Open it only when you're ready to take it \u2014 ask your teacher if you're not sure.",
+      "note": "This is a quiz in Canvas. Open it only when you're ready to take it — ask your teacher if you're not sure.",
       "status": "open"
     },
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 \u2013 Forces and Inertia DOL",
+      "title": "Unit 6 – Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -537,7 +537,57 @@
       "dueLabel": "Due Thu Nov 12",
       "note": "Study your clauses notes and finish reading Red Scarf Girl in Amplify.",
       "status": "open"
+    },
+    {
+      "id": "math-scrs-m2t1l2-l4",
+      "subject": "Math",
+      "title": "SCRs M2T1L2-L4",
+      "kind": "school",
+      "due": "2026-11-05",
+      "dueLabel": "Was due Wed Nov 5 — shows as missing",
+      "note": "This one shows as missing. Ask your teacher what to turn in.",
+      "status": "open"
+    },
+    {
+      "id": "think-six-types-bridge-exam",
+      "subject": "THINK",
+      "title": "Six Types: Bridge Exam",
+      "kind": "school",
+      "due": "2026-11-12",
+      "dueLabel": "Due Thu Nov 12",
+      "note": "This test is due tomorrow. Ask your teacher when to take it.",
+      "status": "open"
+    },
+    {
+      "id": "sci-checkin-pop-quiz-u6-u8",
+      "subject": "Science",
+      "title": "Check-in Pop Quiz 7-U6-U8",
+      "kind": "school",
+      "due": "2026-11-11",
+      "dueLabel": "Done Wed Nov 11",
+      "note": "You took this quiz today. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "sci-eoc-cycle-2",
+      "subject": "Science",
+      "title": "EOC- 7-Cycle 2-End-Cycle",
+      "kind": "school",
+      "due": "2026-11-17",
+      "dueLabel": "Submitted Wed Nov 11",
+      "note": "You took this quiz today. Waiting for the grade. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "ela-noredink-sweeping",
+      "subject": "ELA",
+      "title": "NoRedInk (Sweeping)",
+      "kind": "laptop",
+      "due": "2026-11-09",
+      "dueLabel": "Graded",
+      "note": "Done. Dad checked.",
+      "status": "verified"
     }
   ],
-  "updated": "2026-11-11T08:31:00-06:00"
+  "updated": "2026-11-11T15:16:00-06:00"
 }
