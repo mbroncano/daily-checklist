@@ -485,7 +485,7 @@
       "kind": "laptop",
       "due": "2026-11-09",
       "dueLabel": "Overdue \u2014 was due Mon Nov 9, 11:59pm",
-      "note": "You finished 6 parts so far. Keep working in MATHia. Tap the circle when you finish.",
+      "note": "You finished 8 parts so far. Keep working in MATHia. Tap the circle when you finish.",
       "status": "open"
     },
     {
@@ -539,5 +539,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-11T05:08:00-06:00"
+  "updated": "2026-11-11T08:31:00-06:00"
 }
