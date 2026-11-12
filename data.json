@@ -494,9 +494,9 @@
       "title": "7-U5L2-3 Distance Time Graphs",
       "kind": "school",
       "due": "2026-11-11",
-      "dueLabel": "Due Wed Nov 11, 11:59pm",
-      "note": "This is a quiz in Canvas. Open it only when you're ready to take it \u2014 ask your teacher if you're not sure.",
-      "status": "open"
+      "dueLabel": "Done Wed Nov 11",
+      "note": "You took this quiz today and got it done. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-unit6-forces-inertia-dol",
@@ -589,5 +589,5 @@
       "status": "verified"
     }
   ],
-  "updated": "2026-11-11T17:59:00-06:00"
+  "updated": "2026-11-11T18:34:00-06:00"
 }
