@@ -464,9 +464,9 @@
       "title": "DOL M2T1L4: Percent Increase and Percent Decrease",
       "kind": "school",
       "due": "2026-11-10",
-      "dueLabel": "Was due Tue Nov 10, 11:59pm \u2014 now marked missing",
-      "note": "This quiz was due last night and is marked missing. Ask your teacher if you can still take it.",
-      "status": "open"
+      "dueLabel": "Done Wed Nov 11",
+      "note": "You took this quiz last night. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "math-m2t1l4-more-ups-and-downs",
@@ -501,7 +501,7 @@
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 \u2013 Forces and Inertia DOL",
+      "title": "Unit 6 – Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -544,7 +544,7 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 \u2014 shows as missing",
+      "dueLabel": "Was due Wed Nov 5 — shows as missing",
       "note": "This one shows as missing. Ask your teacher what to turn in.",
       "status": "open"
     },
@@ -587,7 +587,17 @@
       "dueLabel": "Graded",
       "note": "Done. Dad checked.",
       "status": "verified"
+    },
+    {
+      "id": "ela-clauses-quiz",
+      "subject": "ELA",
+      "title": "Clauses Quiz",
+      "kind": "school",
+      "due": "2026-11-12",
+      "dueLabel": "Due Thu Nov 12, 11:59pm",
+      "note": "This quiz is today in class. Study your clauses notes first.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-11T18:34:00-06:00"
+  "updated": "2026-11-12T05:08:00-06:00"
 }
