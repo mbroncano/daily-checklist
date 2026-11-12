@@ -514,9 +514,9 @@
       "title": "MS Word Quiz #1",
       "kind": "school",
       "due": "2026-11-12",
-      "dueLabel": "Due Thu Nov 12, 11:00am",
-      "note": "This is a quiz. Ask your teacher when to take it.",
-      "status": "open"
+      "dueLabel": "Done Thu Nov 12",
+      "note": "You took this quiz today. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "techapps-word-scavenger-hunt",
@@ -574,8 +574,8 @@
       "title": "EOC- 7-Cycle 2-End-Cycle",
       "kind": "school",
       "due": "2026-11-17",
-      "dueLabel": "Submitted Wed Nov 11",
-      "note": "You took this quiz today. Waiting for the grade. Dad checked.",
+      "dueLabel": "Done Wed Nov 11",
+      "note": "You took this quiz. Dad checked.",
       "status": "verified"
     },
     {
@@ -594,10 +594,20 @@
       "title": "Clauses Quiz",
       "kind": "school",
       "due": "2026-11-12",
-      "dueLabel": "Due Thu Nov 12, 11:59pm",
-      "note": "This quiz is today in class. Study your clauses notes first.",
+      "dueLabel": "Done Thu Nov 12",
+      "note": "You took this quiz today. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "techapps-business-letterhead",
+      "subject": "Tech Apps",
+      "title": "Unit 4: Business Letterhead",
+      "kind": "laptop",
+      "due": "2026-11-12",
+      "dueLabel": "Was due Thu Nov 12, 11:00am — still open until Mon Nov 16, 11:00am",
+      "note": "This one is missing. Make your business letterhead and turn it in on Canvas before Mon Nov 16, 11:00am.",
       "status": "open"
     }
   ],
-  "updated": "2026-11-12T05:08:00-06:00"
+  "updated": "2026-11-12T15:14:00-06:00"
 }
