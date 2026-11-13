@@ -501,7 +501,7 @@
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 – Forces and Inertia DOL",
+      "title": "Unit 6 \u2013 Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -544,7 +544,7 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 — shows as missing",
+      "dueLabel": "Was due Wed Nov 5 \u2014 shows as missing",
       "note": "This one shows as missing. Ask your teacher what to turn in.",
       "status": "open"
     },
@@ -604,10 +604,10 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Was due Thu Nov 12, 11:00am — still open until Mon Nov 16, 11:00am",
+      "dueLabel": "Was due Thu Nov 12, 11:00am \u2014 still open until Mon Nov 16, 11:00am",
       "note": "This one is missing. Make your business letterhead and turn it in on Canvas before Mon Nov 16, 11:00am.",
       "status": "open"
     }
   ],
-  "updated": "2026-11-13T05:13:00-06:00"
+  "updated": "2026-11-13T15:08:00-06:00"
 }
