@@ -474,9 +474,9 @@
       "title": "M2T1L4: More Ups and Downs, page 229",
       "kind": "paper",
       "due": "2026-11-09",
-      "dueLabel": "Was due Mon Nov 9, 3:30pm",
-      "note": "Page 229 in your math book. Do the practice in your math notebook.",
-      "status": "open"
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "mathia-m2-unit-1",
@@ -619,5 +619,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-14T05:08:00-06:00"
+  "updated": "2026-11-15T05:09:00-06:00"
 }
