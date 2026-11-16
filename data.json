@@ -424,8 +424,8 @@
       "title": "Unit 4 Project: Day Five",
       "kind": "laptop",
       "due": "2026-11-03",
-      "dueLabel": "Submitted Tue Nov 3, 6:46pm",
-      "note": "You turned this in on time. Waiting for the grade. Dad checked.",
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
       "status": "verified"
     },
     {
@@ -444,8 +444,8 @@
       "title": "U5L4 Classignment: Partition",
       "kind": "laptop",
       "due": "2026-11-03",
-      "dueLabel": "Submitted Tue Nov 3, 3:14pm",
-      "note": "You turned this in on time. Waiting for the grade. Dad checked.",
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
       "status": "verified"
     },
     {
@@ -529,16 +529,6 @@
       "status": "verified"
     },
     {
-      "id": "ela-a-day-hw-11-10",
-      "subject": "ELA",
-      "title": "A Day ELAR Homework",
-      "kind": "laptop",
-      "due": "2026-11-12",
-      "dueLabel": "Due Thu Nov 12",
-      "note": "Study your clauses notes and finish reading Red Scarf Girl in Amplify.",
-      "status": "open"
-    },
-    {
       "id": "math-scrs-m2t1l2-l4",
       "subject": "Math",
       "title": "SCRs M2T1L2-L4",
@@ -617,7 +607,37 @@
       "dueLabel": "Was due Mon Nov 2 — shows as missing",
       "note": "This quiz shows as missing. Ask your teacher if you can still take it.",
       "status": "open"
+    },
+    {
+      "id": "math-m3t1l1-p321",
+      "subject": "Math",
+      "title": "M3T1L1: All Mixed Up, page 321",
+      "kind": "paper",
+      "due": "2026-11-19",
+      "dueLabel": "Due Thu Nov 19, 3:30pm",
+      "note": "Do this on notebook paper. It is practice only.",
+      "status": "open"
+    },
+    {
+      "id": "think-egg-drop-gallery-walk",
+      "subject": "THINK",
+      "title": "Egg Drop Gallery Walk",
+      "kind": "school",
+      "due": "2026-11-02",
+      "dueLabel": "Was due Mon Nov 2",
+      "note": "Ask your teacher if this one still needs anything.",
+      "status": "open"
+    },
+    {
+      "id": "think-egg-drop-report",
+      "subject": "THINK",
+      "title": "Egg Drop Physics Challenge Report",
+      "kind": "school",
+      "due": "2026-11-02",
+      "dueLabel": "Was due Mon Nov 2",
+      "note": "Ask your teacher if this one still needs anything.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-15T05:09:00-06:00"
+  "updated": "2026-11-16T05:10:00-06:00"
 }
