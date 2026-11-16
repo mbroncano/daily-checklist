@@ -594,8 +594,8 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Was due Thu Nov 12, 11:00am — still open until Mon Nov 16, 11:00am",
-      "note": "This one is missing. Make your business letterhead and turn it in on Canvas before Mon Nov 16, 11:00am.",
+      "dueLabel": "Was due Thu Nov 12, 11:00am — window closed Mon Nov 16, 11:00am",
+      "note": "The turn-in window closed at 11:00am today. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
     {
@@ -637,7 +637,17 @@
       "dueLabel": "Was due Mon Nov 2",
       "note": "Ask your teacher if this one still needs anything.",
       "status": "open"
+    },
+    {
+      "id": "wc-u6l1-restaurant",
+      "subject": "World Cultures",
+      "title": "U6L1 Classignment: Restaurant",
+      "kind": "laptop",
+      "due": "2026-11-16",
+      "dueLabel": "Due today Mon Nov 16, 3:30pm",
+      "note": "Make the menu with your group in Google Slides, then paste the link in Canvas.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-16T05:10:00-06:00"
+  "updated": "2026-11-16T15:15:00-06:00"
 }
