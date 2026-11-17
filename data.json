@@ -501,7 +501,7 @@
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 \u2013 Forces and Inertia DOL",
+      "title": "Unit 6 – Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -534,7 +534,7 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 \u2014 shows as missing",
+      "dueLabel": "Was due Wed Nov 5 — shows as missing",
       "note": "This one shows as missing. Ask your teacher what to turn in.",
       "status": "open"
     },
@@ -594,8 +594,8 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Was due Thu Nov 12, 11:00am \u2014 window closed Mon Nov 16, 11:00am",
-      "note": "The turn-in window closed at 11:00am today. Ask your teacher if you can still turn it in.",
+      "dueLabel": "Was due Thu Nov 12, 11:00am — still open until Wed Nov 18, 11:00am",
+      "note": "Make it in Word and upload it in Canvas before tomorrow 11:00am.",
       "status": "open"
     },
     {
@@ -604,7 +604,7 @@
       "title": "Unit 3: Logos (Canva)",
       "kind": "school",
       "due": "2026-11-02",
-      "dueLabel": "Was due Mon Nov 2 \u2014 shows as missing",
+      "dueLabel": "Was due Mon Nov 2 — shows as missing",
       "note": "This quiz shows as missing. Ask your teacher if you can still take it.",
       "status": "open"
     },
@@ -654,10 +654,60 @@
       "title": "Module 2 Topic 1 Assessment: Proportional Relationships",
       "kind": "school",
       "due": "2026-11-17",
-      "dueLabel": "Due today Tue Nov 17, in class",
-      "note": "You take this test on paper in class today.",
+      "dueLabel": "Done Tue Nov 17, in class",
+      "note": "You took this test on paper in class today. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "sci-convection-conduction",
+      "subject": "Science",
+      "title": "Convection and Conduction",
+      "kind": "laptop",
+      "due": "2026-11-17",
+      "dueLabel": "Done Tue Nov 17",
+      "note": "You turned this in today in Canvas. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "sci-conduction-convection",
+      "subject": "Science",
+      "title": "Conduction and Convection",
+      "kind": "laptop",
+      "due": "2026-11-18",
+      "dueLabel": "Due Wed Nov 18, 11:59pm",
+      "note": "Do the partner activity with the PhET simulation, then turn in your own work in Canvas.",
+      "status": "open"
+    },
+    {
+      "id": "math-m2t1l5-pound-for-pound",
+      "subject": "Math",
+      "title": "M2T1L5: Pound for Pound, Inch for Inch (Scale and Scale Drawings)",
+      "kind": "paper",
+      "due": "2026-11-19",
+      "dueLabel": "Due Thu Nov 19, 3:30pm",
+      "note": "Do pages 245-246 on notebook paper and turn it in with the paper at school.",
+      "status": "open"
+    },
+    {
+      "id": "techapps-business-letter",
+      "subject": "Tech Apps",
+      "title": "Unit 4: Business Letter",
+      "kind": "laptop",
+      "due": "2026-11-19",
+      "dueLabel": "Due Thu Nov 19, 11:00am",
+      "note": "Write the letter to Mr. Orlando in Word using your letterhead, then upload it in Canvas. No AI.",
+      "status": "open"
+    },
+    {
+      "id": "wc-u6l2-silk-road-2",
+      "subject": "World Cultures",
+      "title": "U6L2 Homework: Silk Road 2",
+      "kind": "paper",
+      "due": "2026-11-20",
+      "dueLabel": "Due Fri Nov 20, 3:30pm",
+      "note": "Fill in page 1 of the handout — at least three things in every box. Bring it to class.",
       "status": "open"
     }
   ],
-  "updated": "2026-11-17T05:10:00-06:00"
+  "updated": "2026-11-17T15:19:05-06:00"
 }
