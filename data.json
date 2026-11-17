@@ -501,7 +501,7 @@
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 – Forces and Inertia DOL",
+      "title": "Unit 6 \u2013 Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -534,7 +534,7 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 — shows as missing",
+      "dueLabel": "Was due Wed Nov 5 \u2014 shows as missing",
       "note": "This one shows as missing. Ask your teacher what to turn in.",
       "status": "open"
     },
@@ -594,7 +594,7 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Was due Thu Nov 12, 11:00am — window closed Mon Nov 16, 11:00am",
+      "dueLabel": "Was due Thu Nov 12, 11:00am \u2014 window closed Mon Nov 16, 11:00am",
       "note": "The turn-in window closed at 11:00am today. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
@@ -604,7 +604,7 @@
       "title": "Unit 3: Logos (Canva)",
       "kind": "school",
       "due": "2026-11-02",
-      "dueLabel": "Was due Mon Nov 2 — shows as missing",
+      "dueLabel": "Was due Mon Nov 2 \u2014 shows as missing",
       "note": "This quiz shows as missing. Ask your teacher if you can still take it.",
       "status": "open"
     },
@@ -644,10 +644,20 @@
       "title": "U6L1 Classignment: Restaurant",
       "kind": "laptop",
       "due": "2026-11-16",
-      "dueLabel": "Due today Mon Nov 16, 3:30pm",
-      "note": "Make the menu with your group in Google Slides, then paste the link in Canvas.",
+      "dueLabel": "Submitted late Mon Nov 16, 5:01pm",
+      "note": "You turned this in late yesterday. Waiting for the grade. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "math-m2t1-assessment",
+      "subject": "Math",
+      "title": "Module 2 Topic 1 Assessment: Proportional Relationships",
+      "kind": "school",
+      "due": "2026-11-17",
+      "dueLabel": "Due today Tue Nov 17, in class",
+      "note": "You take this test on paper in class today.",
       "status": "open"
     }
   ],
-  "updated": "2026-11-16T15:15:00-06:00"
+  "updated": "2026-11-17T05:10:00-06:00"
 }
