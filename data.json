@@ -595,7 +595,7 @@
       "kind": "laptop",
       "due": "2026-11-12",
       "dueLabel": "Was due Thu Nov 12, 11:00am — still open until Wed Nov 18, 11:00am",
-      "note": "Make it in Word and upload it in Canvas before tomorrow 11:00am.",
+      "note": "Make it in Word and upload it in Canvas before 11:00am today.",
       "status": "open"
     },
     {
@@ -709,5 +709,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-17T15:19:05-06:00"
+  "updated": "2026-11-18T05:11:00-06:00"
 }
