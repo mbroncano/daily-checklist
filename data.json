@@ -594,8 +594,8 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Was due Thu Nov 12, 11:00am — window closed, shows as missing",
-      "note": "The turn-in window closed today. Ask your teacher if you can still turn it in.",
+      "dueLabel": "Was due Thu Nov 12 — window open until Fri Nov 20, 11:00am",
+      "note": "You can still turn this in until tomorrow at 11. Upload your letterhead in Canvas.",
       "status": "open"
     },
     {
@@ -693,9 +693,9 @@
       "subject": "Tech Apps",
       "title": "Unit 4: Business Letter",
       "kind": "laptop",
-      "due": "2026-11-19",
-      "dueLabel": "Due Thu Nov 19, 11:00am",
-      "note": "Write the letter to Mr. Orlando in Word using your letterhead, then upload it in Canvas. No AI.",
+      "due": "2026-11-20",
+      "dueLabel": "Turn-in window open until Fri Nov 20, 11:00am",
+      "note": "You can still turn this in until tomorrow at 11. Upload your Word letter in Canvas.",
       "status": "open"
     },
     {
@@ -709,5 +709,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-19T05:06:00-06:00"
+  "updated": "2026-11-19T15:14:00-06:00"
 }
