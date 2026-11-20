@@ -501,7 +501,7 @@
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 \u2013 Forces and Inertia DOL",
+      "title": "Unit 6 – Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -534,7 +534,7 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 \u2014 shows as missing",
+      "dueLabel": "Was due Wed Nov 5 — shows as missing",
       "note": "This one shows as missing. Ask your teacher what to turn in.",
       "status": "open"
     },
@@ -594,8 +594,8 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Was due Thu Nov 12 \u2014 window closes today, Fri Nov 20, 11:00am",
-      "note": "Turn this in by 11 this morning. Upload your letterhead in Canvas.",
+      "dueLabel": "Window closed today, Fri Nov 20, 11:00am — still not turned in",
+      "note": "The time to turn this in has passed. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
     {
@@ -604,18 +604,8 @@
       "title": "Unit 3: Logos (Canva)",
       "kind": "school",
       "due": "2026-11-02",
-      "dueLabel": "Was due Mon Nov 2 \u2014 shows as missing",
+      "dueLabel": "Was due Mon Nov 2 — shows as missing",
       "note": "This quiz shows as missing. Ask your teacher if you can still take it.",
-      "status": "open"
-    },
-    {
-      "id": "math-m3t1l1-p321",
-      "subject": "Math",
-      "title": "M3T1L1: All Mixed Up, page 321",
-      "kind": "paper",
-      "due": "2026-11-19",
-      "dueLabel": "Was due Thu Nov 19, 3:30pm",
-      "note": "Do this on notebook paper. It is practice only.",
       "status": "open"
     },
     {
@@ -674,7 +664,7 @@
       "title": "Conduction and Convection",
       "kind": "laptop",
       "due": "2026-11-18",
-      "dueLabel": "Was due Wed Nov 18, 11:59pm \u2014 still not turned in",
+      "dueLabel": "Was due Wed Nov 18, 11:59pm — still not turned in",
       "note": "Do the partner activity with the PhET simulation, then turn in your own work in Canvas.",
       "status": "open"
     },
@@ -694,8 +684,8 @@
       "title": "Unit 4: Business Letter",
       "kind": "laptop",
       "due": "2026-11-20",
-      "dueLabel": "Turn-in window closes today, Fri Nov 20, 11:00am",
-      "note": "Turn this in by 11 this morning. Upload your Word letter in Canvas.",
+      "dueLabel": "Turn-in window closes today, Fri Nov 20, 3:30pm",
+      "note": "Turn this in by 3:30 this afternoon. Upload your Word letter in Canvas.",
       "status": "open"
     },
     {
@@ -705,9 +695,9 @@
       "kind": "paper",
       "due": "2026-11-20",
       "dueLabel": "Due Fri Nov 20, 3:30pm",
-      "note": "Fill in page 1 of the handout \u2014 at least three things in every box. Bring it to class.",
+      "note": "Fill in page 1 of the handout — at least three things in every box. Bring it to class.",
       "status": "open"
     }
   ],
-  "updated": "2026-11-20T05:12:00-06:00"
+  "updated": "2026-11-20T15:13:55-06:00"
 }
