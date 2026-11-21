@@ -594,7 +594,7 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Window closed today, Fri Nov 20, 11:00am — still not turned in",
+      "dueLabel": "Window closed Fri Nov 20, 11:00am — still not turned in",
       "note": "The time to turn this in has passed. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
@@ -684,7 +684,7 @@
       "title": "Unit 4: Business Letter",
       "kind": "laptop",
       "due": "2026-11-20",
-      "dueLabel": "Turn-in window closes today, Fri Nov 20, 3:30pm",
+      "dueLabel": "Window closed Fri Nov 20, 3:30pm — still not turned in",
       "note": "Turn this in by 3:30 this afternoon. Upload your Word letter in Canvas.",
       "status": "open"
     },
@@ -699,5 +699,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-20T15:13:55-06:00"
+  "updated": "2026-11-21T05:07:48-06:00"
 }
