@@ -534,9 +534,9 @@
       "title": "SCRs M2T1L2-L4",
       "kind": "school",
       "due": "2026-11-05",
-      "dueLabel": "Was due Wed Nov 5 — shows as missing",
-      "note": "This one shows as missing. Ask your teacher what to turn in.",
-      "status": "open"
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "think-six-types-bridge-exam",
@@ -545,7 +545,7 @@
       "kind": "school",
       "due": "2026-11-12",
       "dueLabel": "Due Thu Nov 12",
-      "note": "This test was due today. Ask your teacher when to take it.",
+      "note": "Ask your teacher when to take this test.",
       "status": "open"
     },
     {
@@ -685,7 +685,7 @@
       "kind": "laptop",
       "due": "2026-11-20",
       "dueLabel": "Window closed Fri Nov 20, 3:30pm — still not turned in",
-      "note": "Turn this in by 3:30 this afternoon. Upload your Word letter in Canvas.",
+      "note": "The time to turn this in has passed. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
     {
@@ -699,5 +699,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-21T05:07:48-06:00"
+  "updated": "2026-11-22T05:22:00-06:00"
 }
