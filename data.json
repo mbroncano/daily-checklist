@@ -544,9 +544,9 @@
       "title": "Six Types: Bridge Exam",
       "kind": "school",
       "due": "2026-11-12",
-      "dueLabel": "Due Thu Nov 12",
-      "note": "Ask your teacher when to take this test.",
-      "status": "open"
+      "dueLabel": "Graded",
+      "note": "You took this test. Dad checked.",
+      "status": "verified"
     },
     {
       "id": "sci-checkin-pop-quiz-u6-u8",
@@ -699,5 +699,5 @@
       "status": "open"
     }
   ],
-  "updated": "2026-11-22T05:22:00-06:00"
+  "updated": "2026-11-23T05:10:00-06:00"
 }
