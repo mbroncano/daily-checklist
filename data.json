@@ -501,7 +501,7 @@
     {
       "id": "sci-unit6-forces-inertia-dol",
       "subject": "Science",
-      "title": "Unit 6 – Forces and Inertia DOL",
+      "title": "Unit 6 \u2013 Forces and Inertia DOL",
       "kind": "school",
       "due": "2026-11-13",
       "dueLabel": "Done Mon Nov 9",
@@ -594,7 +594,7 @@
       "title": "Unit 4: Business Letterhead",
       "kind": "laptop",
       "due": "2026-11-12",
-      "dueLabel": "Window closed Fri Nov 20, 11:00am — still not turned in",
+      "dueLabel": "Window closed Fri Nov 20, 11:00am \u2014 still not turned in",
       "note": "The time to turn this in has passed. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
@@ -604,7 +604,7 @@
       "title": "Unit 3: Logos (Canva)",
       "kind": "school",
       "due": "2026-11-02",
-      "dueLabel": "Was due Mon Nov 2 — shows as missing",
+      "dueLabel": "Was due Mon Nov 2 \u2014 shows as missing",
       "note": "This quiz shows as missing. Ask your teacher if you can still take it.",
       "status": "open"
     },
@@ -634,8 +634,8 @@
       "title": "U6L1 Classignment: Restaurant",
       "kind": "laptop",
       "due": "2026-11-16",
-      "dueLabel": "Submitted late Mon Nov 16, 5:01pm",
-      "note": "You turned this in late yesterday. Waiting for the grade. Dad checked.",
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
       "status": "verified"
     },
     {
@@ -664,7 +664,7 @@
       "title": "Conduction and Convection",
       "kind": "laptop",
       "due": "2026-11-18",
-      "dueLabel": "Was due Wed Nov 18, 11:59pm — still not turned in",
+      "dueLabel": "Was due Wed Nov 18, 11:59pm \u2014 still not turned in",
       "note": "Do the partner activity with the PhET simulation, then turn in your own work in Canvas.",
       "status": "open"
     },
@@ -684,7 +684,7 @@
       "title": "Unit 4: Business Letter",
       "kind": "laptop",
       "due": "2026-11-20",
-      "dueLabel": "Window closed Fri Nov 20, 3:30pm — still not turned in",
+      "dueLabel": "Window closed Fri Nov 20, 3:30pm \u2014 still not turned in",
       "note": "The time to turn this in has passed. Ask your teacher if you can still turn it in.",
       "status": "open"
     },
@@ -694,10 +694,37 @@
       "title": "U6L2 Homework: Silk Road 2",
       "kind": "paper",
       "due": "2026-11-20",
-      "dueLabel": "Due Fri Nov 20, 3:30pm",
-      "note": "Fill in page 1 of the handout — at least three things in every box. Bring it to class.",
-      "status": "open"
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "wc-u5l6-vietnam",
+      "subject": "World Cultures",
+      "title": "U5L6 Vietnam",
+      "kind": "laptop",
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "techapps-word-quiz-2",
+      "subject": "Tech Apps",
+      "title": "MS Word Quiz #2",
+      "kind": "school",
+      "dueLabel": "Graded",
+      "note": "You took this quiz. Dad checked.",
+      "status": "verified"
+    },
+    {
+      "id": "techapps-graphic-design-test",
+      "subject": "Tech Apps",
+      "title": "Unit 3: Graphic Design Test",
+      "kind": "school",
+      "dueLabel": "Graded",
+      "note": "Your teacher graded this one. Dad checked.",
+      "status": "verified"
     }
   ],
-  "updated": "2026-11-23T05:10:00-06:00"
+  "updated": "2026-11-25T15:13:00-06:00"
 }
