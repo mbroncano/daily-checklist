@@ -734,7 +734,17 @@
       "dueLabel": "Graded",
       "note": "Your teacher graded this one. Dad checked.",
       "status": "verified"
+    },
+    {
+      "id": "math-m3t1l1-all-mixed-up",
+      "subject": "Math",
+      "title": "M3T1L1 Assignment: All Mixed Up, page 321",
+      "kind": "paper",
+      "due": "2026-11-30",
+      "dueLabel": "Due Mon Nov 30, 3:30pm",
+      "note": "Do page 321 in your math book — Practice and Stretch only — on notebook paper.",
+      "status": "open"
     }
   ],
-  "updated": "2026-11-26T15:15:00-06:00"
+  "updated": "2026-11-27T05:11:00-06:00"
 }
